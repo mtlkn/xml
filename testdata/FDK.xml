@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.1 http://www.landxml.org/schema/LandXML-1.1/LandXML-1.1.xsd" version="1.1" language="English" date="2006-11-15" time="09:15:27" readOnly="false">
+ 	<Application name="EXG2LandXML" desc="NGS-FAA Exchange File V3.x-4.x converted to LandXML-1.1 + FAA Feature spec" manufacturerURL="www.landxml.org" manufacturer="Nathan Crews" version="1.0">
+		<Author createdBy="Shaelynn Hales" createdByEmail="shaelynn.ctr.hales@faa.gov"/>
+	</Application>
+  <Project name="FDK" desc="08556.A">
+    <Feature code="Airport Identification" source="A000">
+      <Property label="OC Number" value="5089" />
+      <Property label="OC Edition" value="312" />
+    </Feature>
+    <Feature code="Airport Name" source="A010">
+      <Property label="Name" value="FREDERICK MUNICIPAL AIRPORT" />
+      <Property label="Verified Date" value="15-SEP-2003" />
+    </Feature>
+    <Feature code="Airport Jurisdiction" source="A020">
+      <Property label="City" value="FREDERICK" />
+      <Property label="State" value="MARYLAND" />
+    </Feature>
+    <Feature code="Airport Magnetic Declination" source="A030">
+      <Property label="Magnetic Declination" value="10.7" />
+      <Property label="Verified Date" value="15-SEP-2003" />
+    </Feature>
+    <Feature code="Airport Elevation" source="A060">
+      <Property label="Airport Elevation - Orthometric" value="303.390" />
+    </Feature>
+    <Feature code="Task Status" source="T000">
+      <Property label="Task Code" value="S" />
+      <Property label="Date Completed" value="15-SEP-2003" />
+    </Feature>
+    <Feature code="Task Status" source="T000">
+      <Property label="Task Code" value="P" />
+      <Property label="User" value="SHARPE" />
+      <Property label="Date Started" value="1-OCT-2003" />
+      <Property label="Date Completed" value="1-OCT-2003" />
+    </Feature>
+    <Feature code="Task Status" source="T000">
+      <Property label="Task Code" value="B" />
+      <Property label="User" value="SHARPE" />
+      <Property label="Date Started" value="1-OCT-2003" />
+      <Property label="Date Completed" value="6-OCT-2003" />
+    </Feature>
+    <Feature code="Task Status" source="T000">
+      <Property label="Task Code" value="L" />
+      <Property label="User" value="SHARPE" />
+      <Property label="Date Started" value="6-OCT-2003" />
+      <Property label="Date Completed" value="6-OCT-2003" />
+    </Feature>
+    <Feature code="Task Status" source="T000">
+      <Property label="Task Code" value="D" />
+      <Property label="Date Started" value="21-JAN-2004" />
+      <Property label="Date Completed" value="21-JAN-2004" />
+    </Feature>
+    <Feature code="Task Status" source="T000">
+      <Property label="Task Code" value="E" />
+      <Property label="Date Started" value="21-JAN-2004" />
+      <Property label="Date Completed" value="21-JAN-2004" />
+    </Feature>
+    <Feature code="Task Status" source="T000">
+      <Property label="Task Code" value="F" />
+      <Property label="User" value="STEELE" />
+      <Property label="Date Started" value="21-JAN-2004" />
+      <Property label="Date Completed" value="21-JAN-2004" />
+    </Feature>
+  </Project>
+  <PlanFeatures name="Airport">
+    <PlanFeature name="Airport" desc="A040">
+      <Feature code="Airport Status" source="A040">
+        <Property label="Vessel Code" value="-" />
+        <Property label="Vessel Code Verified Date" value="10-NOV-1998" />
+        <Property label="Survey Date" value="15-SEP-2003" />
+        <Property label="Published Date" value="28-MAY-1999" />
+        <Property label="Date of ALP" value="17-OCT-1983" />
+        <Property label="Date of ARP" value="7-SEP-1996" />
+        <Property label="Airport Mode Code" value="0" />
+        <Property label="Survey Type Code: Airport" value="2" />
+      </Feature>
+      <Feature code="Surface Type" source="A045">
+        <Property label="Surface Type Code 1" value="F77" />
+        <Property label="Surface Type Code 2" value="ANA" />
+        <Property label="Surface Type Code 3" value="NUL" />
+        <Property label="Surface Type Code 4" value="NUL" />
+        <Property label="Surface Type Code 5" value="NUL" />
+        <Property label="Surface Type Code 6" value="NUL" />
+        <Property label="Surface Type Code 7" value="NUL" />
+        <Property label="Surface Type Code 8" value="NUL" />
+        <Property label="Surface Type Code 9" value="NUL" />
+        <Property label="Surface Type Code 10" value="NUL" />
+        <Property label="Surface Type Survey Flag 1" value="0" />
+        <Property label="Surface Type Survey Flag 2" value="1" />
+        <Property label="Surface Type Survey Flag 3" value="0" />
+        <Property label="Surface Type Survey Flag 4" value="0" />
+        <Property label="Surface Type Survey Flag 5" value="0" />
+        <Property label="Surface Type Survey Flag 6" value="0" />
+        <Property label="Surface Type Survey Flag 7" value="0" />
+        <Property label="Surface Type Survey Flag 8" value="0" />
+        <Property label="Surface Type Survey Flag 9" value="0" />
+        <Property label="Surface Type Survey Flag 10" value="0" />
+      </Feature>
+      <Feature code="Geoid Height (at ALP)" source="A060">
+        <Property label="Geoid Height (at ALP)" value="-107.096" />
+      </Feature>
+      <CoordGeom>
+        <Chain>A710</Chain>
+      </CoordGeom>
+    </PlanFeature>
+  </PlanFeatures>
+  <Units>
+    <Imperial linearUnit="USSurveyFoot" angularUnit="decimal dd.mm.ss" elevationUnit="feet" latLongAngularUnit="decimal dd.mm.ss" areaUnit="squareMiles" temperatureUnit="fahrenheit" pressureUnit="inHG" volumeUnit="US_gallon" />
+  </Units>
+  <CoordinateSystem name="NAD83 Maryland State Plane, US Survey Foot" ellipsoidName="WGS84" horizontalDatum="NAD83" verticalDatum="NGVD88" geocentricCoordinateSystemName="LL">
+    <Feature code="Datum Tie" source="A050">
+      <Property label="Horizontal Datum Tie Code" value="B" />
+      <Property label="Ellipsoidal Datum Tie Code" value="B" />
+      <Property label="Orthometric Datum Tie Code" value="F" />
+      <Property label="Date of Horizontal Datum Tie" value="7-SEP-1996" />
+      <Property label="Date of Ellipsoidal Datum Tie" value="7-SEP-1996" />
+      <Property label="Date of Orthometric Datum Tie" value="7-SEP-1996" />
+    </Feature>
+    <Feature code="NGVD29 to NGVD88 Conversion Adjustment">
+      <Property label="Conversion Adjustment" value="-0.72" />
+    </Feature>
+    <Feature code="Chart Reference System" source="C310">
+      <Property label="Reference System Code" value="2" />
+      <Property label="Zone Code" value="1900" />
+      <Property label="Horizontal Unit Code" value="1" />
+      <Property label="Vertical Unit Code" value="1" />
+    </Feature>
+  </CoordinateSystem>
+  <CgPoints name="Airport">
+    <CgPoint name="A710">636921.064892033 1205831.09995162 303.39</CgPoint>
+  </CgPoints>
+  <PlanFeatures name="Runway-12/30" desc="Runway Data">
+    <PlanFeature name="R401-12" desc="R401">
+      <CoordGeom>
+        <Chain>R401-12</Chain>
+      </CoordGeom>
+    </PlanFeature>
+    <PlanFeature name="Distance To Boundary - by position">
+      <Feature code="Distance To Boundary - by position" source="R741">
+        <Property label="Longitude" value="0.0" />
+        <Property label="Latitude" value="0.0" />
+      </Feature>
+      <Feature code="Distance To Boundary - by position" source="R742">
+        <Property label="Longitude" value="0.0" />
+        <Property label="Latitude" value="0.0" />
+      </Feature>
+    </PlanFeature>
+    <PlanFeature name="R402-30" desc="R402">
+      <CoordGeom>
+        <Chain>R402-30</Chain>
+      </CoordGeom>
+    </PlanFeature>
+    <PlanFeature name="Profile Point Positions" desc="R490">
+      <Feature code="Profile Point Status: R490-1" source="R090">
+        <Property label="Runway Identification Number From Which Distance Is Measured" value="12" />
+        <Property label="Profile Point Type Code" value="P" />
+      </Feature>
+      <CoordGeom>
+        <Chain>R490-2 R490-3 R490-4 R490-5 R490-6 R490-7 R490-8 R490-9 R490-10 R490-11 R490-12 R490-13 R490-14 R490-15 R490-16 R490-17 R490-18 R490-19 R490-20 R490-21 R490-22 R490-23 R490-24 R490-25 R490-26 R490-27 R490-28 R490-29 R490-30 R490-31 R490-32 R490-33 R490-34 R490-35 R490-36 R490-37 R490-38 R490-39 R490-40 R490-41 R490-42 R490-43 R490-44 R490-45 R490-46 R490-47 R490-48 R490-49 R490-50 R490-51 R490-52 R490-53 R490-54 R490-55 R490-56 R490-57 R490-58 R490-59 R490-60 R490-61 R490-62 R490-63 R490-64 R490-65</Chain>
+      </CoordGeom>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-2: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-2: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-3: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-3: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-4: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-4: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-5: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-5: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-6: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-6: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-7: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-7: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-8: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-8: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-9: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-9: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-10: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-10: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-11: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-11: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-12: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-12: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-13: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-13: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-14: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-14: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-15: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-15: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-16: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-16: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-17: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-17: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-18: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-18: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-19: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-19: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-20: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-20: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-21: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-21: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-22: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-22: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-23: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-23: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-24: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-24: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-25: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-25: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-26: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-26: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-27: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-27: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-28: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-28: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-29: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-29: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-30: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-30: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-31: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-31: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-32: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-32: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-33: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-33: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-34: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-34: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-35: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-35: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-36: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-36: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-37: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-37: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-38: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-38: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-39: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-39: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-40: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-40: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-41: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-41: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-42: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-42: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-43: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-43: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-44: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-44: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-45: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-45: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-46: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-46: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-47: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-47: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-48: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-48: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-49: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-49: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-50: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-50: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-51: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-51: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-52: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-52: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-53: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-53: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-54: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-54: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-55: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-55: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-56: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-56: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-57: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-57: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-58: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-58: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-59: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-59: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-60: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-60: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-61: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-61: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-62: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-62: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-63: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-63: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-64: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-64: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-65: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-65: Source Code: Vertical Position" value="F" />
+      </Feature>
+    </PlanFeature>
+  </PlanFeatures>
+  <CgPoints name="Runway-12/30" desc="R000-R9999">
+    <CgPoint name="R401-12" desc="R401 - Runway Low End" code="Runway End Position" longitude="-77.22473584" latitude="39.25241754" ellipsoidElev="187.021" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">640015.966418866 1205037.29758945 294.104</CgPoint>
+    <CgPoint name="R402-30" desc="R402 - Runway High End" code="Runway End Position" longitude="-77.22061175" latitude="39.25085958" ellipsoidElev="174.488" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">638426.367196302 1208267.2332237 281.443</CgPoint>
+    <CgPoint name="R490-2" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22470720" latitude="39.25240672" ellipsoidElev="187.005" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">640004.925287889 1205059.726706 293.966</CgPoint>
+    <CgPoint name="R490-3" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22464991" latitude="39.25238509" ellipsoidElev="186.796" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639982.853170121 1205104.59288598 293.758</CgPoint>
+    <CgPoint name="R490-4" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22459263" latitude="39.25236345" ellipsoidElev="186.508" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639960.771045513 1205149.45125322 293.47</CgPoint>
+    <CgPoint name="R490-5" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22453535" latitude="39.25234181" ellipsoidElev="186.216" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639938.688999377 1205194.30969712 293.178</CgPoint>
+    <CgPoint name="R490-6" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22447807" latitude="39.25232018" ellipsoidElev="185.922" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639916.61714967 1205239.16825968 292.884</CgPoint>
+    <CgPoint name="R490-7" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22442079" latitude="39.25229854" ellipsoidElev="185.645" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639894.535260484 1205284.02685686 292.607</CgPoint>
+    <CgPoint name="R490-8" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22436350" latitude="39.25227691" ellipsoidElev="185.339" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639872.463535162 1205328.89342001 292.301</CgPoint>
+    <CgPoint name="R490-9" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22430622" latitude="39.25225527" ellipsoidElev="185.047" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639850.381802935 1205373.75217049 292.009</CgPoint>
+    <CgPoint name="R490-10" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22424894" latitude="39.25223364" ellipsoidElev="184.764" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639828.310267141 1205418.61103956 291.725</CgPoint>
+    <CgPoint name="R490-11" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22419166" latitude="39.25221200" ellipsoidElev="184.410" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639806.228691862 1205463.46994332 291.372</CgPoint>
+    <CgPoint name="R490-12" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22413438" latitude="39.25219036" ellipsoidElev="184.061" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639784.147195061 1205508.32892373 291.022</CgPoint>
+    <CgPoint name="R490-13" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22407710" latitude="39.25216873" ellipsoidElev="183.727" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639762.075894688 1205553.18802268 290.689</CgPoint>
+    <CgPoint name="R490-14" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22401291" latitude="39.25214448" ellipsoidElev="183.389" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639737.331325403 1205603.45876676 290.351</CgPoint>
+    <CgPoint name="R490-15" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22394873" latitude="39.25212024" ellipsoidElev="183.079" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639712.597005092 1205653.72180156 290.041</CgPoint>
+    <CgPoint name="R490-16" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22388454" latitude="39.25209599" ellipsoidElev="182.733" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639687.852632894 1205703.99273813 289.695</CgPoint>
+    <CgPoint name="R490-17" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22382036" latitude="39.25207175" ellipsoidElev="182.403" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639663.118509637 1205754.25596537 289.364</CgPoint>
+    <CgPoint name="R490-18" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22375618" latitude="39.25204751" ellipsoidElev="182.039" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639638.384484903 1205804.51928881 289.001</CgPoint>
+    <CgPoint name="R490-19" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22369068" latitude="39.25202277" ellipsoidElev="181.682" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639613.140383937 1205855.81647892 288.644</CgPoint>
+    <CgPoint name="R490-20" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22362519" latitude="39.25199803" ellipsoidElev="181.366" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639587.896417967 1205907.10592182 288.328</CgPoint>
+    <CgPoint name="R490-21" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22355969" latitude="39.25197329" ellipsoidElev="181.054" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639562.652522217 1205958.40331235 288.015</CgPoint>
+    <CgPoint name="R490-22" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22349420" latitude="39.25194855" ellipsoidElev="180.730" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639537.408761444 1206009.69295563 287.691</CgPoint>
+    <CgPoint name="R490-23" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22342870" latitude="39.25192381" ellipsoidElev="180.348" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639512.165070915 1206060.99054656 287.309</CgPoint>
+    <CgPoint name="R490-24" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22336321" latitude="39.25189907" ellipsoidElev="179.997" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639486.921515317 1206112.28039023 286.958</CgPoint>
+    <CgPoint name="R490-25" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22329301" latitude="39.25187255" ellipsoidElev="179.642" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639459.861849809 1206167.25907579 286.603</CgPoint>
+    <CgPoint name="R490-26" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22322282" latitude="39.25184603" ellipsoidElev="179.278" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639432.802334468 1206222.230029 286.239</CgPoint>
+    <CgPoint name="R490-27" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22315262" latitude="39.25181952" ellipsoidElev="178.899" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639405.753022641 1206277.2089864 285.861</CgPoint>
+    <CgPoint name="R490-28" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22308243" latitude="39.25179300" ellipsoidElev="178.548" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639378.693742997 1206332.18016981 285.51</CgPoint>
+    <CgPoint name="R490-29" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22301543" latitude="39.25176769" ellipsoidElev="178.186" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639352.869138138 1206384.65314602 285.148</CgPoint>
+    <CgPoint name="R490-30" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22294843" latitude="39.25174238" ellipsoidElev="177.629" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639327.044640647 1206437.1262271 284.591</CgPoint>
+    <CgPoint name="R490-31" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22288142" latitude="39.25171707" ellipsoidElev="177.136" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639301.220218325 1206489.60726056 284.098</CgPoint>
+    <CgPoint name="R490-32" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22281442" latitude="39.25169176" ellipsoidElev="176.647" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639275.395935604 1206542.08055137 283.609</CgPoint>
+    <CgPoint name="R490-33" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22274742" latitude="39.25166645" ellipsoidElev="176.135" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639249.571760251 1206594.55394704 283.096</CgPoint>
+    <CgPoint name="R490-34" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22268042" latitude="39.25164114" ellipsoidElev="175.641" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639223.747692273 1206647.02744756 282.603</CgPoint>
+    <CgPoint name="R490-35" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22260944" latitude="39.25161432" ellipsoidElev="175.135" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639196.383127463 1206702.61811806 282.096</CgPoint>
+    <CgPoint name="R490-36" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22253846" latitude="39.25158751" ellipsoidElev="174.530" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639169.028801118 1206758.2089477 281.491</CgPoint>
+    <CgPoint name="R490-37" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22246748" latitude="39.25156069" ellipsoidElev="173.959" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639141.664477325 1206813.79985361 280.921</CgPoint>
+    <CgPoint name="R490-38" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22239650" latitude="39.25153388" ellipsoidElev="173.488" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639114.310391996 1206869.39091861 280.45</CgPoint>
+    <CgPoint name="R490-39" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22232677" latitude="39.25150754" ellipsoidElev="173.047" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639087.435980442 1206924.00309764 280.009</CgPoint>
+    <CgPoint name="R490-40" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22225704" latitude="39.25148120" ellipsoidElev="172.717" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639060.561685191 1206978.61539023 279.679</CgPoint>
+    <CgPoint name="R490-41" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22218731" latitude="39.25145485" ellipsoidElev="172.532" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639033.677388285 1207033.22775509 279.494</CgPoint>
+    <CgPoint name="R490-42" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22211758" latitude="39.25142851" ellipsoidElev="172.429" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">639006.803325642 1207087.84027484 279.39</CgPoint>
+    <CgPoint name="R490-43" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22204786" latitude="39.25140217" ellipsoidElev="172.493" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638979.929411317 1207142.44506056 279.455</CgPoint>
+    <CgPoint name="R490-44" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22197356" latitude="39.25137410" ellipsoidElev="172.662" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638951.290555075 1207200.63703391 279.624</CgPoint>
+    <CgPoint name="R490-45" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22189927" latitude="39.25134603" ellipsoidElev="172.952" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638922.65186286 1207258.8212886 279.914</CgPoint>
+    <CgPoint name="R490-46" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22182498" latitude="39.25131797" ellipsoidElev="173.417" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638894.023420613 1207317.00571343 280.378</CgPoint>
+    <CgPoint name="R490-47" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22175069" latitude="39.25128990" ellipsoidElev="173.980" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638865.384992423 1207375.19022597 280.941</CgPoint>
+    <CgPoint name="R490-48" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22167640" latitude="39.25126183" ellipsoidElev="174.465" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638836.746696259 1207433.37486746 281.427</CgPoint>
+    <CgPoint name="R490-49" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22159779" latitude="39.25123213" ellipsoidElev="174.972" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638806.445524086 1207494.94312425 281.934</CgPoint>
+    <CgPoint name="R490-50" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22151919" latitude="39.25120243" ellipsoidElev="175.527" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638776.144531618 1207556.50367773 282.488</CgPoint>
+    <CgPoint name="R490-51" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22144058" latitude="39.25117273" ellipsoidElev="176.085" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638745.843655061 1207618.07222322 283.046</CgPoint>
+    <CgPoint name="R490-52" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22136197" latitude="39.25114304" ellipsoidElev="176.686" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638715.553044275 1207679.64095415 283.647</CgPoint>
+    <CgPoint name="R490-53" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22129857" latitude="39.25111908" ellipsoidElev="177.048" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638691.108578953 1207729.29699138 284.01</CgPoint>
+    <CgPoint name="R490-54" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22123517" latitude="39.25109513" ellipsoidElev="177.312" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638666.67432774 1207778.95316357 284.274</CgPoint>
+    <CgPoint name="R490-55" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22117177" latitude="39.25107118" ellipsoidElev="177.480" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638642.240172675 1207828.60942963 284.441</CgPoint>
+    <CgPoint name="R490-56" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22110838" latitude="39.25104722" ellipsoidElev="177.538" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638617.796027604 1207878.25790089 284.499</CgPoint>
+    <CgPoint name="R490-57" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22104498" latitude="39.25102327" ellipsoidElev="177.488" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638593.362064826 1207927.91435475 284.45</CgPoint>
+    <CgPoint name="R490-58" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22098158" latitude="39.25099932" ellipsoidElev="177.323" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638568.9281982 1207977.5709025 284.284</CgPoint>
+    <CgPoint name="R490-59" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22092430" latitude="39.25097767" ellipsoidElev="177.075" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638546.84098161 1208022.43413731 284.036</CgPoint>
+    <CgPoint name="R490-60" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22086703" latitude="39.25095603" ellipsoidElev="176.798" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638524.763993179 1208067.28964197 283.758</CgPoint>
+    <CgPoint name="R490-61" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22080975" latitude="39.25093439" ellipsoidElev="176.408" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638502.687051493 1208112.15307101 283.37</CgPoint>
+    <CgPoint name="R490-62" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22075248" latitude="39.25091275" ellipsoidElev="175.965" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638480.610219989 1208157.00872894 282.927</CgPoint>
+    <CgPoint name="R490-63" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22069520" latitude="39.25089111" ellipsoidElev="175.389" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638458.533435261 1208201.87231125 282.35</CgPoint>
+    <CgPoint name="R490-64" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22064045" latitude="39.25087043" ellipsoidElev="174.867" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638437.436065577 1208244.75440298 281.828</CgPoint>
+    <CgPoint name="R490-65" desc="Runway-12/30-R490" code="Profile Point Position" longitude="-77.22404848" latitude="39.25215792" ellipsoidElev="183.570" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">639751.045397881 1205575.60192708 290.532</CgPoint>
+  </CgPoints>
+   <PlanFeatures name="Runway-5/23" desc="Runway Data">
+    <PlanFeature name="R401-5" desc="R401">
+      <CoordGeom>
+        <Chain>R401-5</Chain>
+      </CoordGeom>
+    </PlanFeature>
+    <PlanFeature name="Distance To Boundary - by position">
+      <Feature code="Distance To Boundary - by position" source="R741">
+        <Property label="Longitude" value="0.0" />
+        <Property label="Latitude" value="0.0" />
+      </Feature>
+      <Feature code="Distance To Boundary - by position" source="R742">
+        <Property label="Longitude" value="0.0" />
+        <Property label="Latitude" value="0.0" />
+      </Feature>
+    </PlanFeature>
+    <PlanFeature name="R402-23" desc="R402">
+      <CoordGeom>
+        <Chain>R402-23</Chain>
+      </CoordGeom>
+    </PlanFeature>
+    <PlanFeature name="Profile Point Positions" desc="R490">
+      <Feature code="Profile Point Status: R490-66" source="R090">
+        <Property label="Runway Identification Number From Which Distance Is Measured" value="5" />
+        <Property label="Profile Point Type Code" value="E" />
+      </Feature>
+      <CoordGeom>
+        <Chain>R490-67 R490-69 R490-70 R490-71 R490-72 R490-73 R490-74 R490-75 R490-76 R490-77 R490-78 R490-79 R490-80 R490-81 R490-82 R490-83 R490-84 R490-85 R490-86 R490-87 R490-88 R490-89 R490-90 R490-91 R490-92 R490-93 R490-94 R490-95 R490-96 R490-97 R490-98 R490-99 R490-100 R490-101 R490-102 R490-103 R490-104 R490-105 R490-106 R490-107 R490-108 R490-109 R490-110 R490-111 R490-112 R490-113 R490-114 R490-115 R490-116 R490-117 R490-118 R490-119 R490-120 R490-121 R490-122 R490-123 R490-124 R490-125 R490-126 R490-127 R490-128 R490-129 R490-130 R490-131 R490-132 R490-133 R490-134 R490-135 R490-136 R490-137 R490-138 R490-139 R490-140 R490-141 R490-142 R490-143 R490-144 R490-145 R490-146 R490-147 R490-148 R490-149 R490-150 R490-151 R490-152 R490-153 R490-154 R490-155 R490-156</Chain>
+      </CoordGeom>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-67: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-67: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Status: R490-68" source="R090">
+        <Property label="Runway Identification Number From Which Distance Is Measured" value="5" />
+        <Property label="Profile Point Type Code" value="P" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-69: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-69: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-70: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-70: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-71: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-71: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-72: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-72: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-73: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-73: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-74: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-74: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-75: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-75: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-76: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-76: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-77: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-77: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-78: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-78: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-79: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-79: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-80: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-80: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-81: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-81: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-82: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-82: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-83: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-83: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-84: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-84: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-85: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-85: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-86: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-86: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-87: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-87: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-88: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-88: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-89: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-89: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-90: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-90: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-91: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-91: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-92: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-92: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-93: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-93: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-94: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-94: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-95: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-95: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-96: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-96: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-97: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-97: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-98: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-98: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-99: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-99: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-100: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-100: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-101: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-101: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-102: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-102: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-103: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-103: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-104: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-104: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-105: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-105: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-106: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-106: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-107: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-107: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-108: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-108: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-109: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-109: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-110: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-110: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-111: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-111: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-112: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-112: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-113: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-113: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-114: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-114: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-115: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-115: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-116: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-116: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-117: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-117: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-118: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-118: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-119: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-119: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-120: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-120: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-121: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-121: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-122: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-122: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-123: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-123: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-124: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-124: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-125: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-125: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-126: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-126: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-127: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-127: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-128: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-128: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-129: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-129: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-130: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-130: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-131: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-131: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-132: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-132: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-133: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-133: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-134: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-134: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-135: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-135: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-136: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-136: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-137: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-137: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-138: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-138: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-139: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-139: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-140: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-140: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-141: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-141: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-142: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-142: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-143: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-143: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-144: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-144: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-145: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-145: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-146: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-146: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-147: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-147: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-148: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-148: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-149: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-149: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-150: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-150: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-151: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-151: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-152: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-152: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-153: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-153: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-154: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-154: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-155: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-155: Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Profile Point Position" source="R490">
+        <Property label="R490-156: Source Code: Horizontal Position" value="F" />
+        <Property label="R490-156: Source Code: Vertical Position" value="F" />
+      </Feature>
+    </PlanFeature>
+  </PlanFeatures>
+  <CgPoints name="Runway-5/23" desc="R000-R9999">
+    <CgPoint name="R401-5" desc="R401 - Runway Low End" code="Runway End Position" longitude="-77.22495648" latitude="39.24345664" ellipsoidElev="196.355" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">634997.281456671 1204843.23690853 303.323</CgPoint>
+    <CgPoint name="R402-23" desc="R402 - Runway High End" code="Runway End Position" longitude="-77.22063849" latitude="39.25138048" ellipsoidElev="175.196" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-07T12:00:00Z">638953.495939314 1208248.37542042 282.165</CgPoint>
+    <CgPoint name="R490-67" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22493580" latitude="39.24347543" ellipsoidElev="196.429" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635016.225373341 1204859.54749253 303.39</CgPoint>
+    <CgPoint name="R490-69" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22489445" latitude="39.24351302" ellipsoidElev="196.389" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635054.123389223 1204892.1607822 303.35</CgPoint>
+    <CgPoint name="R490-70" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22485309" latitude="39.24355061" ellipsoidElev="196.322" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635092.021414972 1204924.78182514 303.284</CgPoint>
+    <CgPoint name="R490-71" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22481174" latitude="39.24358820" ellipsoidElev="196.352" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635129.919515993 1204957.39492374 303.314</CgPoint>
+    <CgPoint name="R490-72" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22477038" latitude="39.24362578" ellipsoidElev="196.250" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635167.807508996 1204990.01573347 303.212</CgPoint>
+    <CgPoint name="R490-73" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22472903" latitude="39.24366337" ellipsoidElev="196.234" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635205.705695154 1205022.628641 303.195</CgPoint>
+    <CgPoint name="R490-74" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22468767" latitude="39.24370096" ellipsoidElev="196.292" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635243.603891226 1205055.24930175 303.254</CgPoint>
+    <CgPoint name="R490-75" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22464632" latitude="39.24373855" ellipsoidElev="196.239" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635281.502162523 1205087.8620182 303.201</CgPoint>
+    <CgPoint name="R490-76" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22460496" latitude="39.24377613" ellipsoidElev="196.195" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635319.390325838 1205120.48244579 303.157</CgPoint>
+    <CgPoint name="R490-77" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22455959" latitude="39.24381738" ellipsoidElev="196.127" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635360.97872796 1205156.26554204 303.089</CgPoint>
+    <CgPoint name="R490-78" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22451421" latitude="39.24385862" ellipsoidElev="196.094" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635402.557030806 1205192.05632994 303.056</CgPoint>
+    <CgPoint name="R490-79" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22446883" latitude="39.24389986" ellipsoidElev="196.062" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635444.135384918 1205227.84700281 303.024</CgPoint>
+    <CgPoint name="R490-80" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22442345" latitude="39.24394110" ellipsoidElev="196.009" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635485.713790289 1205263.63756065 302.971</CgPoint>
+    <CgPoint name="R490-81" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22437808" latitude="39.24398234" ellipsoidElev="195.904" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635527.292279501 1205299.42015481 302.866</CgPoint>
+    <CgPoint name="R490-82" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22433300" latitude="39.24402332" ellipsoidElev="195.741" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635568.60869834 1205334.97393182 302.702</CgPoint>
+    <CgPoint name="R490-83" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22428792" latitude="39.24406429" ellipsoidElev="195.560" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635609.915049858 1205370.52755332 302.521</CgPoint>
+    <CgPoint name="R490-84" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22424284" latitude="39.24410526" ellipsoidElev="195.404" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635651.22145196 1205406.08106132 302.365</CgPoint>
+    <CgPoint name="R490-85" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22419776" latitude="39.24414623" ellipsoidElev="195.244" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635692.527904647 1205441.63445579 302.205</CgPoint>
+    <CgPoint name="R490-86" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22414951" latitude="39.24419008" ellipsoidElev="195.057" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635736.738060904 1205479.68781486 302.019</CgPoint>
+    <CgPoint name="R490-87" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22410126" latitude="39.24423393" ellipsoidElev="194.851" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635780.948275124 1205517.74104389 301.812</CgPoint>
+    <CgPoint name="R490-88" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22405301" latitude="39.24427778" ellipsoidElev="194.562" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635825.158547283 1205555.79414289 301.524</CgPoint>
+    <CgPoint name="R490-89" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22400476" latitude="39.24432163" ellipsoidElev="194.251" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635869.368877402 1205593.84711184 301.212</CgPoint>
+    <CgPoint name="R490-90" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22395899" latitude="39.24436323" ellipsoidElev="193.952" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635911.310785824 1205629.94409353 300.914</CgPoint>
+    <CgPoint name="R490-91" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22391321" latitude="39.24440483" ellipsoidElev="193.668" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635953.252713935 1205666.04880673 300.63</CgPoint>
+    <CgPoint name="R490-92" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22386744" latitude="39.24444643" ellipsoidElev="193.403" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">635995.194726654 1205702.14555435 300.365</CgPoint>
+    <CgPoint name="R490-93" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22382166" latitude="39.24448803" ellipsoidElev="193.099" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636037.136759097 1205738.25003346 300.061</CgPoint>
+    <CgPoint name="R490-94" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22376977" latitude="39.24453519" ellipsoidElev="192.809" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636084.6845967 1205779.17306643 299.771</CgPoint>
+    <CgPoint name="R490-95" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22371788" latitude="39.24458235" ellipsoidElev="192.522" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636132.232501335 1205820.095949 299.481</CgPoint>
+    <CgPoint name="R490-96" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22366598" latitude="39.24462951" ellipsoidElev="192.152" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636179.780440589 1205861.02652963 299.113</CgPoint>
+    <CgPoint name="R490-97" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22361409" latitude="39.24467668" ellipsoidElev="191.809" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636227.338597209 1205901.94915312 298.771</CgPoint>
+    <CgPoint name="R490-98" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22355914" latitude="39.24472661" ellipsoidElev="191.482" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636277.679461452 1205945.28476616 298.444</CgPoint>
+    <CgPoint name="R490-99" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22350420" latitude="39.24477654" ellipsoidElev="191.168" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636328.020433215 1205988.61236214 298.13</CgPoint>
+    <CgPoint name="R490-100" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22344925" latitude="39.24482648" ellipsoidElev="190.898" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636378.371565695 1206031.94767963 297.86</CgPoint>
+    <CgPoint name="R490-101" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22339431" latitude="39.24487641" ellipsoidElev="190.604" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636428.712687745 1206075.27493838 297.565</CgPoint>
+    <CgPoint name="R490-102" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22334291" latitude="39.24492312" ellipsoidElev="190.323" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636475.807354432 1206115.81028727 297.285</CgPoint>
+    <CgPoint name="R490-103" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22329150" latitude="39.24496983" ellipsoidElev="190.096" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636522.902054572 1206156.35333696 297.057</CgPoint>
+    <CgPoint name="R490-104" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22324010" latitude="39.24501655" ellipsoidElev="189.812" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636570.006970733 1206196.88843234 296.774</CgPoint>
+    <CgPoint name="R490-105" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22319301" latitude="39.24505934" ellipsoidElev="189.525" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636613.149522007 1206234.02439196 296.487</CgPoint>
+    <CgPoint name="R490-106" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22314592" latitude="39.24510213" ellipsoidElev="189.203" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636656.292128479 1206271.16022772 296.164</CgPoint>
+    <CgPoint name="R490-107" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22309883" latitude="39.24514493" ellipsoidElev="188.890" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636699.444908078 1206308.29598123 295.852</CgPoint>
+    <CgPoint name="R490-108" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22305174" latitude="39.24518772" ellipsoidElev="188.756" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636742.587624945 1206345.43156928 295.718</CgPoint>
+    <CgPoint name="R490-109" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22300465" latitude="39.24523051" ellipsoidElev="188.599" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636785.730397014 1206382.56703349 295.56</CgPoint>
+    <CgPoint name="R490-110" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22296329" latitude="39.24526810" ellipsoidElev="188.390" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636823.630368451 1206415.18371034 295.352</CgPoint>
+    <CgPoint name="R490-111" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22292193" latitude="39.24530568" ellipsoidElev="188.163" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636861.520264547 1206447.8002501 295.125</CgPoint>
+    <CgPoint name="R490-112" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22288057" latitude="39.24534327" ellipsoidElev="187.937" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636899.420321148 1206480.41673585 294.899</CgPoint>
+    <CgPoint name="R490-113" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22283921" latitude="39.24538085" ellipsoidElev="187.725" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636937.310302398 1206513.03308453 294.685</CgPoint>
+    <CgPoint name="R490-114" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22278642" latitude="39.24542883" ellipsoidElev="187.455" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636985.686182453 1206554.66301238 294.417</CgPoint>
+    <CgPoint name="R490-115" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22273363" latitude="39.24547680" ellipsoidElev="187.130" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637034.052013948 1206596.29274306 294.092</CgPoint>
+    <CgPoint name="R490-116" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22268084" latitude="39.24552477" ellipsoidElev="186.852" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637082.4179148 1206637.9223181 293.813</CgPoint>
+    <CgPoint name="R490-117" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22262805" latitude="39.24557274" ellipsoidElev="186.586" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637130.783885025 1206679.55173749 293.548</CgPoint>
+    <CgPoint name="R490-118" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22256710" latitude="39.24562812" ellipsoidElev="186.305" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637186.621090144 1206727.61579905 293.266</CgPoint>
+    <CgPoint name="R490-119" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22250616" latitude="39.24568350" ellipsoidElev="186.008" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637242.458419855 1206775.67180499 292.968</CgPoint>
+    <CgPoint name="R490-120" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22244521" latitude="39.24573888" ellipsoidElev="185.704" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637298.295809901 1206823.73545164 292.665</CgPoint>
+    <CgPoint name="R490-121" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22238905" latitude="39.24578991" ellipsoidElev="185.404" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637349.747362611 1206868.0216497 292.366</CgPoint>
+    <CgPoint name="R490-122" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22233289" latitude="39.24584095" ellipsoidElev="185.085" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637401.209111771 1206912.30771296 292.047</CgPoint>
+    <CgPoint name="R490-123" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22227673" latitude="39.24589198" ellipsoidElev="184.827" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637452.660821493 1206956.59355872 291.788</CgPoint>
+    <CgPoint name="R490-124" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22222056" latitude="39.24594301" ellipsoidElev="184.528" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637504.112577676 1207000.88707638 291.49</CgPoint>
+    <CgPoint name="R490-125" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22216187" latitude="39.24599635" ellipsoidElev="184.242" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637557.893582291 1207047.16766672 291.204</CgPoint>
+    <CgPoint name="R490-126" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22210317" latitude="39.25004968" ellipsoidElev="183.948" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637611.664522679 1207093.45587139 290.908</CgPoint>
+    <CgPoint name="R490-127" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22204448" latitude="39.25010302" ellipsoidElev="183.666" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637665.445698791 1207139.73607689 290.627</CgPoint>
+    <CgPoint name="R490-128" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22198998" latitude="39.25015254" ellipsoidElev="183.369" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637715.375314292 1207182.71202161 290.33</CgPoint>
+    <CgPoint name="R490-129" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22193547" latitude="39.25020206" ellipsoidElev="183.065" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637765.304971739 1207225.69564843 290.027</CgPoint>
+    <CgPoint name="R490-130" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22188097" latitude="39.25025159" ellipsoidElev="182.723" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637815.244853065 1207268.67130258 289.684</CgPoint>
+    <CgPoint name="R490-131" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22182647" latitude="39.25030111" ellipsoidElev="182.452" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637865.174690376 1207311.64674962 289.414</CgPoint>
+    <CgPoint name="R490-132" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22177119" latitude="39.25035133" ellipsoidElev="182.142" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637915.810365861 1207355.23705271 289.103</CgPoint>
+    <CgPoint name="R490-133" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22171592" latitude="39.25040155" ellipsoidElev="181.749" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">637966.446149332 1207398.81933723 288.71</CgPoint>
+    <CgPoint name="R490-134" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22166065" latitude="39.25045178" ellipsoidElev="181.346" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638017.092126787 1207442.4014923 288.308</CgPoint>
+    <CgPoint name="R490-135" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22160382" latitude="39.25050342" ellipsoidElev="181.064" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638069.159833163 1207487.21354726 288.024</CgPoint>
+    <CgPoint name="R490-136" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22154698" latitude="39.25055506" ellipsoidElev="180.717" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638121.227588046 1207532.03326971 287.679</CgPoint>
+    <CgPoint name="R490-137" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22149015" latitude="39.25060670" ellipsoidElev="180.359" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638173.295455213 1207576.8449639 287.32</CgPoint>
+    <CgPoint name="R490-138" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22143331" latitude="39.25065834" ellipsoidElev="180.025" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638225.363370908 1207621.66432554 286.987</CgPoint>
+    <CgPoint name="R490-139" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22137860" latitude="39.25070805" ellipsoidElev="179.754" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638275.485387603 1207664.80399461 286.716</CgPoint>
+    <CgPoint name="R490-140" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22132388" latitude="39.25075776" ellipsoidElev="179.451" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638325.607446956 1207707.95134431 286.412</CgPoint>
+    <CgPoint name="R490-141" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22126917" latitude="39.25080747" ellipsoidElev="179.104" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638375.729612672 1207751.09067903 286.066</CgPoint>
+    <CgPoint name="R490-142" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22122132" latitude="39.25085095" ellipsoidElev="178.765" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638419.570194715 1207788.82071659 285.727</CgPoint>
+    <CgPoint name="R490-143" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22117346" latitude="39.25089443" ellipsoidElev="178.406" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638463.410801955 1207826.55847405 285.368</CgPoint>
+    <CgPoint name="R490-144" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22112561" latitude="39.25093791" ellipsoidElev="178.108" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638507.251497991 1207864.28825585 285.069</CgPoint>
+    <CgPoint name="R490-145" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22107776" latitude="39.25098139" ellipsoidElev="177.763" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638551.092251028 1207902.01790976 284.724</CgPoint>
+    <CgPoint name="R490-146" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22103639" latitude="39.25101897" ellipsoidElev="177.531" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638588.984056485 1207934.6379419 284.492</CgPoint>
+    <CgPoint name="R490-147" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22099502" latitude="39.25105655" ellipsoidElev="177.307" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638626.875904549 1207967.25787848 284.269</CgPoint>
+    <CgPoint name="R490-148" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22095366" latitude="39.25109414" ellipsoidElev="177.076" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638664.77794491 1207999.86991273 284.037</CgPoint>
+    <CgPoint name="R490-149" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22091229" latitude="39.25113172" ellipsoidElev="176.834" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638702.669878162 1208032.48965819 283.796</CgPoint>
+    <CgPoint name="R490-150" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22087093" latitude="39.25116930" ellipsoidElev="176.600" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638740.561885733 1208065.10146041 283.562</CgPoint>
+    <CgPoint name="R490-151" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22082956" latitude="39.25120689" ellipsoidElev="176.388" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638778.464022121 1208097.72105566 283.35</CgPoint>
+    <CgPoint name="R490-152" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22078819" latitude="39.25124447" ellipsoidElev="176.166" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638816.356083161 1208130.34051444 283.127</CgPoint>
+    <CgPoint name="R490-153" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22074683" latitude="39.25128205" ellipsoidElev="175.896" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638854.248218481 1208162.95203002 282.857</CgPoint>
+    <CgPoint name="R490-154" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22070546" latitude="39.25131964" ellipsoidElev="175.634" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638892.150482659 1208195.57133855 282.595</CgPoint>
+    <CgPoint name="R490-155" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22065918" latitude="39.25136168" ellipsoidElev="175.330" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">638934.539724288 1208232.06191123 282.292</CgPoint>
+    <CgPoint name="R490-156" desc="Runway-5/23-R490" code="Profile Point Position" longitude="-77.22312027" latitude="39.24512544" ellipsoidElev="189.029" timeStamp="1998-11-10T12:00:00Z" determinedTimeStamp="1996-09-08T12:00:00Z">636679.794243169 1206291.3881353 295.99</CgPoint>
+  </CgPoints>
+  <CgPoints name="Airport Features" desc="F000">
+    <CgPoint name="F000-1" desc="TREE" code="Airport Feature" longitude="-77.23092200" latitude="39.24205700" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">633587.614692845 1203294.54880457 390</CgPoint>
+    <CgPoint name="F000-2" desc="TREE" code="Airport Feature" longitude="-77.23091600" latitude="39.24215600" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">633687.761949907 1203299.68176655 389</CgPoint>
+    <CgPoint name="F000-3" desc="TREE" code="Airport Feature" longitude="-77.23061200" latitude="39.24203400" determinedTimeStamp="2006-10-22T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">633563.316084893 1203537.77748137 388</CgPoint>
+    <CgPoint name="F000-4" desc="TREE" code="Airport Feature" longitude="-77.23089600" latitude="39.24102400" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">632542.350376945 1203310.53948833 376</CgPoint>
+    <CgPoint name="F000-5" desc="TREE" code="Airport Feature" longitude="-77.23108500" latitude="39.24074000" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">632255.62992486 1203160.96649969 370</CgPoint>
+    <CgPoint name="F000-6" desc="TREE" code="Airport Feature" longitude="-77.23075600" latitude="39.24107800" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">632596.522734859 1203420.66416089 368</CgPoint>
+    <CgPoint name="F000-7" desc="TREE" code="Airport Feature" longitude="-77.23211300" latitude="39.24206400" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">633598.665959085 1202359.73311011 389</CgPoint>
+    <CgPoint name="F000-8" desc="TREE" code="Airport Feature" longitude="-77.23036800" latitude="39.24329300" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">634836.352782125 1203734.66276974 371</CgPoint>
+    <CgPoint name="F000-9" desc="TREE" code="Airport Feature" longitude="-77.23010700" latitude="39.24116500" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">632682.402458403 1203930.4701567 412</CgPoint>
+    <CgPoint name="F000-10" desc="TREE" code="Airport Feature" longitude="-77.23038500" latitude="39.24051900" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">632029.705095303 1203709.5009896 393</CgPoint>
+    <CgPoint name="F000-11" desc="TREE" code="Airport Feature" longitude="-77.21418400" latitude="39.25298100" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">640565.194082577 1210180.98108831 379</CgPoint>
+    <CgPoint name="F000-12" desc="TREE" code="Airport Feature" longitude="-77.21402000" latitude="39.25301000" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">640594.02672662 1210309.79009651 377</CgPoint>
+    <CgPoint name="F000-13" desc="TREE" code="Airport Feature" longitude="-77.21445500" latitude="39.25300900" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">640594.367684982 1209968.43634894 371</CgPoint>
+    <CgPoint name="F000-14" desc="TREE" code="Airport Feature" longitude="-77.21360800" latitude="39.25406600" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">641661.208090953 1210637.30525972 382</CgPoint>
+    <CgPoint name="F000-15" desc="TREE" code="Airport Feature" longitude="-77.21369100" latitude="39.25396500" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">641559.273408656 1210571.7735735 381</CgPoint>
+    <CgPoint name="F000-16" desc="TREE" code="Airport Feature" longitude="-77.21425500" latitude="39.25433200" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">641932.35365981 1210130.68432342 376</CgPoint>
+    <CgPoint name="F000-17" desc="TREE" code="Airport Feature" longitude="-77.20443200" latitude="39.26172900" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">645351.735881259 1214712.84087683 492</CgPoint>
+    <CgPoint name="F000-18" desc="TREE" code="Airport Feature" longitude="-77.20435300" latitude="39.26219900" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">645827.04851561 1214776.62111557 491</CgPoint>
+    <CgPoint name="F000-19" desc="SILO" code="Airport Feature" longitude="-77.21228100" latitude="39.25482200" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">642422.042427053 1211681.56094453 435</CgPoint>
+    <CgPoint name="F000-20" desc="TREE" code="Airport Feature" longitude="-77.21231900" latitude="39.25523200" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">642836.99656037 1211653.36376864 431</CgPoint>
+    <CgPoint name="F000-21" desc="ANT/MAST" code="Airport Feature" longitude="-77.19284400" latitude="39.27240800" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">652087.737781029 1220690.16686251 719</CgPoint>
+    <CgPoint name="F000-22" desc="TREE" code="Airport Feature" longitude="-77.20408300" latitude="39.26299200" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">646628.607843232 1214991.47983706 496</CgPoint>
+    <CgPoint name="F000-23" desc="TREE" code="Airport Feature" longitude="-77.21360200" latitude="39.25310900" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">640692.899026738 1210638.19476463 390</CgPoint>
+    <CgPoint name="F000-24" desc="TREE" code="Airport Feature" longitude="-77.21332100" latitude="39.25317400" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">640757.797219489 1210858.95680517 383</CgPoint>
+    <CgPoint name="F000-25" desc="TREE" code="Airport Feature" longitude="-77.21459300" latitude="39.25504600" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">642655.830514646 1209868.33617551 409</CgPoint>
+    <CgPoint name="F000-26" desc="TREE" code="Airport Feature" longitude="-77.21477600" latitude="39.25507500" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">642685.74368552 1209724.86211632 401</CgPoint>
+    <CgPoint name="F000-27" desc="TREE" code="Airport Feature" longitude="-77.20449100" latitude="39.26135500" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">644973.497162129 1214665.11793747 509</CgPoint>
+    <CgPoint name="F000-28" desc="TREE" code="Airport Feature" longitude="-77.20465800" latitude="39.26106700" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">644682.594890567 1214532.98795245 500</CgPoint>
+    <CgPoint name="F000-29" desc="TREE" code="Airport Feature" longitude="-77.21323000" latitude="39.25536500" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">642974.366836049 1210939.08247679 419</CgPoint>
+    <CgPoint name="F000-30" desc="TREE" code="Airport Feature" longitude="-77.23035800" latitude="39.24329100" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">634834.29615524 1203742.50312279 370</CgPoint>
+    <CgPoint name="F000-31" desc="TREE" code="Airport Feature" longitude="-77.23037400" latitude="39.24328800" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">634831.313656871 1203729.93214532 370</CgPoint>
+    <CgPoint name="F000-32" desc="TREE" code="Airport Feature" longitude="-77.22442800" latitude="39.24243000" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">633956.811416511 1205253.71937128 351</CgPoint>
+    <CgPoint name="F000-33" desc="GRD" code="Airport Feature" longitude="-77.22494900" latitude="39.24204400" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">633567.961394671 1204843.15168907 337</CgPoint>
+    <CgPoint name="F000-34" desc="TREE" code="Airport Feature" longitude="-77.21461300" latitude="39.25144000" determinedTimeStamp="2003-09-15T12:00:00Z" timeStamp="2003-09-15T12:00:00Z">639007.351631684 1209838.14247585 313</CgPoint>
+  </CgPoints>
+  <PlanFeatures name="Airport Features">
+    <PlanFeature name="F000-1" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-1</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-2" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-2</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-3" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-3</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-4" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-4</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-5" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-5</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-6" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-6</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-7" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-7</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-8" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-8</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-9" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-9</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-10" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-10</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-11" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-11</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-12" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-12</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-13" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-13</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-14" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-14</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-15" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-15</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-16" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-16</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-17" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-17</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-18" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-18</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-19" desc="SILO">
+      <CoordGeom>
+        <Chain>F000-19</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-20" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-20</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-21" desc="ANT/MAST">
+      <CoordGeom>
+        <Chain>F000-21</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-22" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-22</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-23" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-23</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-24" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-24</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-25" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-25</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-26" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-26</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-27" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-27</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-28" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-28</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-29" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-29</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-30" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-30</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-31" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-31</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-32" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-32</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-33" desc="GRD">
+      <CoordGeom>
+        <Chain>F000-33</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+    <PlanFeature name="F000-34" desc="TREE">
+      <CoordGeom>
+        <Chain>F000-34</Chain>
+      </CoordGeom>
+      <Feature code="Collection Interface" source="F009">
+        <Property label="Temporary Subject to Review Flag" value="0" />
+      </Feature>
+      <Feature code="Feature Status" source="F010">
+        <Property label="Feature Status Flag" value="0" />
+        <Property label="Accuracy Code" value="2C" />
+        <Property label="Survey Type Code" value="2" />
+      </Feature>
+      <Feature code="Airport Feature" source="F000">
+        <Property label="Source Code: Horizontal Position" value="F" />
+        <Property label="Source Code: Vertical Position" value="F" />
+      </Feature>
+      <Feature code="Base Elevation" source="F020">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Reference Elevation" source="F025">
+        <Property label="Elevation Source Code" value="F" />
+      </Feature>
+      <Feature code="Feature Cross-Reference" source="F040" />
+      <Feature code="Field Survey Feature Comment" source="F050" />
+      <Feature code="Requirements Feature Comment" source="F051" />
+      <Feature code="Compilation Feature Comment" source="F052" />
+    </PlanFeature>
+  </PlanFeatures>
+  <Survey startTime="2006-10-22T12:00:00Z" endTime="2003-09-15T12:00:00Z">
+    <SurveyHeader name="Airport Survey: FREDERICK MUNICIPAL AIRPORT" surveyor="S" desc=" " />
+    <Equipment>
+      <InstrumentDetails id="INSTRUMENT_1">
+        <Corrections />
+      </InstrumentDetails>
+    </Equipment>
+  </Survey>
+  <Survey startTime="2003-10-01T12:00:00Z" endTime="2003-10-01T12:00:00Z">
+    <SurveyHeader name="Airport Survey: FREDERICK MUNICIPAL AIRPORT" surveyor="P" desc="SHARPE" />
+    <Equipment>
+      <InstrumentDetails id="INSTRUMENT_2">
+        <Corrections />
+      </InstrumentDetails>
+    </Equipment>
+  </Survey>
+  <Survey startTime="2003-10-01T12:00:00Z" endTime="2003-10-06T12:00:00Z">
+    <SurveyHeader name="Airport Survey: FREDERICK MUNICIPAL AIRPORT" surveyor="B" desc="SHARPE" />
+    <Equipment>
+      <InstrumentDetails id="INSTRUMENT_3">
+        <Corrections />
+      </InstrumentDetails>
+    </Equipment>
+  </Survey>
+  <Survey startTime="2003-10-06T12:00:00Z" endTime="2003-10-06T12:00:00Z">
+    <SurveyHeader name="Airport Survey: FREDERICK MUNICIPAL AIRPORT" surveyor="L" desc="SHARPE" />
+    <Equipment>
+      <InstrumentDetails id="INSTRUMENT_4">
+        <Corrections />
+      </InstrumentDetails>
+    </Equipment>
+  </Survey>
+  <Survey startTime="2004-01-21T12:00:00Z" endTime="2004-01-21T12:00:00Z">
+    <SurveyHeader name="Airport Survey: FREDERICK MUNICIPAL AIRPORT" surveyor="D" desc=" " />
+    <Equipment>
+      <InstrumentDetails id="INSTRUMENT_5">
+        <Corrections />
+      </InstrumentDetails>
+    </Equipment>
+  </Survey>
+  <Survey startTime="2004-01-21T12:00:00Z" endTime="2004-01-21T12:00:00Z">
+    <SurveyHeader name="Airport Survey: FREDERICK MUNICIPAL AIRPORT" surveyor="E" desc=" " />
+    <Equipment>
+      <InstrumentDetails id="INSTRUMENT_6">
+        <Corrections />
+      </InstrumentDetails>
+    </Equipment>
+  </Survey>
+  <Survey startTime="2004-01-21T12:00:00Z" endTime="2004-01-21T12:00:00Z">
+    <SurveyHeader name="Airport Survey: FREDERICK MUNICIPAL AIRPORT" surveyor="F" desc="STEELE" />
+    <Equipment>
+      <InstrumentDetails id="INSTRUMENT_7">
+        <Corrections />
+      </InstrumentDetails>
+    </Equipment>
+  </Survey>
+</LandXML>

@@ -1,0 +1,2509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.1 http://www.landxml.org/schema/LandXML-1.1/LandXML-1.1.xsd" version="1.1" readOnly="0" LandXMLId="0" date="2006-05-30" time="17:09:35">
+	<Application name="UC-win/Road - LandXML Plugin" manufacturer="Forum 8" version="6.0 Professional" manufacturerURL="http://www.forum8.co.jp"/>
+	<CoordinateSystem name="International" desc="6"/>
+	<Units>
+		<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="HPA" angularUnit="radians" directionUnit="radians"/>
+	</Units>
+	<Alignments>
+		<Alignment name="Main-street" length="998.419271268082" staStart="0">
+			<CoordGeom>
+				<Line length="195.04875414264">
+					<Start>-144067.489878898 -43966.8089054933</Start>
+					<End>-144249.913964364 -43897.7765251615</End>
+				</Line>
+				<Spiral spiType="clothoid" length="34.8135317634844" radiusStart="INF" radiusEnd="200" rot="cw" chord="34.8018127911082" constant="83.4428328419936" dirStart="2.86686374301844" dirEnd="2.77982991361009" theta="0.0870338294083511" tanLong="23.2183735596574" tanShort="11.6127518247108">
+					<Start>-144249.913964364 -43897.7765251615</Start>
+					<End>-144282.806774227 -43886.4086215352</End>
+					<PI>-144271.629514813 -43889.5589988017</PI>
+				</Spiral>
+				<Curve length="50.0000000000076" radius="199.999999999999" crvType="arc" rot="cw" chord="49.8698933540982" delta="0.250000000000039" dirStart="2.86686340068415" dirEnd="3.11686340068419">
+					<Start>-144282.806774227 -43886.4086215352</Start>
+					<End>-144332.118698361 -43878.9695085931</End>
+					<Center>-144337.064044863 -44078.9083581145</Center>
+				</Curve>
+				<Spiral spiType="clothoid" length="34.8135317634844" radiusStart="200" radiusEnd="INF" rot="cw" chord="34.8018127910709" constant="83.4428328419936" dirStart="3.20389645966442" dirEnd="3.11686263025573" theta="0.087033829408693" tanLong="23.218544667609" tanShort="11.612580500377">
+					<Start>-144332.118698361 -43878.9695085931</Start>
+					<End>-144366.901222851 -43880.1280264675</End>
+					<PI>-144343.727728066 -43878.6823584773</PI>
+				</Spiral>
+				<Line length="683.743453598466">
+					<Start>-144366.901222851 -43880.1280264675</Start>
+					<End>-145049.318003898 -43922.7008732668</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="Main-street" staStart="0">
+				<ProfAlign name="Main-street Profile">
+					<PVI>0 2.02018445823882</PVI>
+					<ParaCurve length="50">105.177045959061 2.05649717514124</ParaCurve>
+					<ParaCurve length="50">410.367048400467 2.05649717514124</ParaCurve>
+					<ParaCurve length="50">563.243843636949 2.80812890114676</ParaCurve>
+					<ParaCurve length="50">673.529351481946 3.95430396283931</ParaCurve>
+					<PVI>999.419366130383 3.95430396283931</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="Main-street - Main2 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-15 2.02018445823882 -15 2.22018445823882 -8.7 2.22018445823882 -7.6 2.22018445823882 -7.6 3.42018445823882 -7.6 2.22018445823882 -7.4 2.22018445823882 -7.4 2.02018445823882 -7.2 2.02018445823882</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-7.2 2.02018445823882 -3.8 2.06875588681025</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-3.8 2.06875588681025 -0.2 2.12018445823882</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.2 2.12018445823882 -0.2 2.22018445823882 0 2.22018445823882 0 3.42018445823882 0 2.22018445823882 0.2 2.22018445823882 0.2 2.12018445823882</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.2 2.12018445823882 3.6 2.07161302966739</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>3.6 2.07161302966739 7.2 2.02018445823882</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>7.2 2.02018445823882 7.4 2.02018445823882 7.4 2.22018445823882 7.6 2.22018445823882 7.6 3.42018445823882 7.6 2.22018445823882 8.7 2.22018445823882 17 2.22018445823882 17 2.02018445823882</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Main-street - Main 1" sta="90.9000015258789">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-15 2.05117100083736 -15 2.25117100083736 -8.7 2.25117100083736 -7.6 2.25117100083736 -7.4 2.25117100083736 -7.4 2.05117100083736 -7.2 2.05117100083736</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-7.2 2.05117100083736 -3.8 2.09974242940878</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-3.8 2.09974242940878 -0.2 2.15117100083736</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.2 2.15117100083736 -0.2 2.25117100083736 0 2.25117100083736 0 3.45117100083736 0 2.25117100083736 0.2 2.25117100083736 0.2 2.15117100083736</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.2 2.15117100083736 3.6 2.10259957226593</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>3.6 2.10259957226593 7.2 2.05117100083736</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>7.2 2.05117100083736 7.4 2.05117100083736 7.4 2.25117100083736 7.6 2.25117100083736 8.7 2.25117100083736 17 2.25117100083736 17 2.05117100083736</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Main-street - Main2 2" sta="141.100006103516">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-15 2.05649717514124 -15 2.25649717514124 -8.7 2.25649717514124 -7.6 2.25649717514124 -7.6 3.45649717514124 -7.6 2.25649717514124 -7.4 2.25649717514124 -7.4 2.05649717514124 -7.2 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-7.2 2.05649717514124 -3.8 2.10506860371267</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-3.8 2.10506860371267 -0.2 2.15649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.2 2.15649717514124 -0.2 2.25649717514124 0 2.25649717514124 0 3.45649717514124 0 2.25649717514124 0.2 2.25649717514124 0.2 2.15649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.2 2.15649717514124 3.6 2.10792574656981</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>3.6 2.10792574656981 7.2 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>7.2 2.05649717514124 7.4 2.05649717514124 7.4 2.25649717514124 7.6 2.25649717514124 7.6 3.45649717514124 7.6 2.25649717514124 8.7 2.25649717514124 17 2.25649717514124 17 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Main-street - Main 2" sta="232">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-15 2.05649717514124 -15 2.25649717514124 -8.7 2.25649717514124 -7.6 2.25649717514124 -7.4 2.25649717514124 -7.4 2.05649717514124 -7.2 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-7.2 2.05649717514124 -3.8 2.10506860371267</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-3.8 2.10506860371267 -0.2 2.15649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.2 2.15649717514124 -0.2 2.25649717514124 0 2.25649717514124 0 3.45649717514124 0 2.25649717514124 0.2 2.25649717514124 0.2 2.15649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.2 2.15649717514124 3.6 2.10792574656981</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>3.6 2.10792574656981 7.2 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>7.2 2.05649717514124 7.4 2.05649717514124 7.4 2.25649717514124 7.6 2.25649717514124 8.7 2.25649717514124 17 2.25649717514124 17 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Main-street - Main2 3" sta="283">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-15 2.05649717514124 -15 2.25649717514124 -8.7 2.25649717514124 -7.6 2.25649717514124 -7.6 3.45649717514124 -7.6 2.25649717514124 -7.4 2.25649717514124 -7.4 2.05649717514124 -7.2 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-7.2 2.05649717514124 -3.8 2.10506860371267</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-3.8 2.10506860371267 -0.2 2.15649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.2 2.15649717514124 -0.2 2.25649717514124 0 2.25649717514124 0 3.45649717514124 0 2.25649717514124 0.2 2.25649717514124 0.2 2.15649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.2 2.15649717514124 3.6 2.10792574656981</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>3.6 2.10792574656981 7.2 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>7.2 2.05649717514124 7.4 2.05649717514124 7.4 2.25649717514124 7.6 2.25649717514124 7.6 3.45649717514124 7.6 2.25649717514124 8.7 2.25649717514124 17 2.25649717514124 17 2.05649717514124</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Main-street - Main2-1 1" sta="517.710021972656">
+					<CrossSectSurf name="roadway" desc="width-1">
+						<PntList2D>-3.8 2.63425800618053 -0.2 2.68425800618053</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-2">
+						<PntList2D>-0.2 2.68425800618053 -0.2 2.78425800618053 0 2.78425800618053 0 3.98425800618053 0 2.78425800618053 0.2 2.78425800618053 0.2 2.68425800618053</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>0.2 2.68425800618053 3.6 2.6356865776091</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-4">
+						<PntList2D>3.6 2.6356865776091 7.2 2.58425800618053</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>7.2 2.58425800618053 7.4 2.58425800618053 7.4 2.78425800618053 7.6 2.78425800618053 7.6 3.98425800618053 7.6 2.78425800618053 8.7 2.78425800618053 17 2.78425800618053 17 2.58425800618053</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Main-street - Main2 4" sta="541">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-15 2.69918115286307 -15 2.89918115286308 -8.7 2.89918115286308 -7.6 2.89918115286308 -7.6 4.09918115286307 -7.6 2.89918115286308 -7.4 2.89918115286308 -7.4 2.69918115286307 -7.2 2.69918115286307</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-7.2 2.69918115286307 -3.8 2.7477525814345</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-3.8 2.7477525814345 -0.2 2.79918115286308</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.2 2.79918115286308 -0.2 2.89918115286308 0 2.89918115286308 0 4.09918115286307 0 2.89918115286308 0.2 2.89918115286308 0.2 2.79918115286308</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.2 2.79918115286308 3.6 2.75060972429165</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>3.6 2.75060972429165 7.2 2.69918115286307</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>7.2 2.69918115286307 7.4 2.69918115286307 7.4 2.89918115286308 7.6 2.89918115286308 7.6 4.09918115286307 7.6 2.89918115286308 8.7 2.89918115286308 17 2.89918115286308 17 2.69918115286307</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Main-street - Main 3" sta="704">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-15 3.95430396283931 -15 4.15430396283931 -8.7 4.15430396283931 -7.6 4.15430396283931 -7.4 4.15430396283931 -7.4 3.95430396283931 -7.2 3.95430396283931</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-7.2 3.95430396283931 -3.8 4.00287539141074</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-3.8 4.00287539141074 -0.2 4.05430396283931</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.2 4.05430396283931 -0.2 4.15430396283931 0 4.15430396283931 0 5.35430396283931 0 4.15430396283931 0.2 4.15430396283931 0.2 4.05430396283931</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.2 4.05430396283931 3.6 4.00573253426788</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>3.6 4.00573253426788 7.2 3.95430396283931</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>7.2 3.95430396283931 7.4 3.95430396283931 7.4 4.15430396283931 7.6 4.15430396283931 8.7 4.15430396283931 17 4.15430396283931 17 3.95430396283931</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+		<Alignment name="Crossing-street" length="836.644465573196" staStart="0">
+			<CoordGeom>
+				<Line length="179.500676682242">
+					<Start>-143977.259410148 -43508.8764103761</Start>
+					<End>-144056.251070102 -43670.0620505152</End>
+				</Line>
+				<Curve length="0.531035098488793" radius="30.0000000000024" crvType="arc" rot="cw" chord="0.531028165599984" delta="0.017701169949625" dirStart="4.25671954934862" dirEnd="4.27442071929758">
+					<Start>-144056.251070102 -43670.0620505152</Start>
+					<End>-144056.480526776 -43670.5409456471</End>
+					<Center>-144029.312070985 -43683.2639566883</Center>
+				</Curve>
+				<Line length="656.612753792465">
+					<Start>-144056.480526776 -43670.5409456471</Start>
+					<End>-144334.950328116 -44265.1793888918</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="Crossing-street" staStart="0">
+				<ProfAlign name="Crossing-street Profile">
+					<PVI>0 5.69999980926514</PVI>
+					<ParaCurve length="50">177.899993896484 5.69999980926514</ParaCurve>
+					<ParaCurve length="50">297.399993896484 4.50499980926514</ParaCurve>
+					<ParaCurve length="50">363.099990844727 1.97686389411545</ParaCurve>
+					<PVI>837.639999389648 1.97686389411545</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="Crossing-street - cross-main 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 5.69999980926514 -8 5.89999980926514 -8 5.89999980926514 -8 5.89999980926514 -7.8 5.89999980926514 -6.2 5.89999980926514 -6.2 6.69999980926514 -6.2 5.89999980926514 -6 5.89999980926514 -6 5.69999980926514 -5.8 5.69999980926514</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 5.69999980926514 -2.95 5.74956502665644</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 5.74956502665644 -0.05 5.79999980926514</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 5.79999980926514 0 5.79999980926514 0.05 5.79999980926514</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 5.79999980926514 2.9 5.75043459187384</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 5.75043459187384 5.8 5.69999980926514</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 5.69999980926514 6 5.69999980926514 6 5.89999980926514 6.2 5.89999980926514 6.2 6.69999980926514 6.2 5.89999980926514 7.8 5.89999980926514 8 5.89999980926514 8 5.89999980926514 8 5.89999980926514 8 5.69999980926514</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Crossing-street - cross-crossing 1" sta="87.5">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 5.69999980926514 -8 5.89999980926514 -8 5.89999980926514 -8 5.89999980926514 -7.8 5.89999980926514 -6.2 5.89999980926514 -6.2 5.89999980926514 -6.2 5.89999980926514 -6 5.89999980926514 -6 5.69999980926514 -5.8 5.69999980926514</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 5.69999980926514 -2.95 5.74956502665644</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 5.74956502665644 -0.05 5.79999980926514</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 5.79999980926514 0 5.79999980926514 0.05 5.79999980926514</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 5.79999980926514 2.9 5.75043459187384</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 5.75043459187384 5.8 5.69999980926514</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 5.69999980926514 6 5.69999980926514 6 5.89999980926514 6.2 5.89999980926514 6.2 5.89999980926514 6.2 5.89999980926514 7.8 5.89999980926514 8 5.89999980926514 8 5.89999980926514 8 5.89999980926514 8 5.69999980926514</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Crossing-street - cross-main 2" sta="172.100006103516">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 5.66313576239012 -8 5.86313576239012 -8 5.86313576239012 -8 5.86313576239012 -7.8 5.86313576239012 -6.2 5.86313576239012 -6.2 6.66313576239012 -6.2 5.86313576239012 -6 5.86313576239012 -6 5.66313576239012 -5.8 5.66313576239012</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 5.66313576239012 -2.95 5.71270097978143</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 5.71270097978143 -0.05 5.76313576239012</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 5.76313576239012 0 5.76313576239012 0.05 5.76313576239012</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 5.76313576239012 2.9 5.71357054499882</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 5.71357054499882 5.8 5.66313576239012</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 5.66313576239012 6 5.66313576239012 6 5.86313576239012 6.2 5.86313576239012 6.2 6.66313576239012 6.2 5.86313576239012 7.8 5.86313576239012 8 5.86313576239012 8 5.86313576239012 8 5.86313576239012 8 5.66313576239012</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Crossing-street - cross-Bridge 1" sta="182.343118729434">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 5.61331004927227 -8 5.81331004927227 -8 6.81331004927227 -8 5.81331004927227 -7.8 5.81331004927227 -6.2 5.81331004927227 -6.2 6.61331004927227 -6.2 5.81331004927227 -6 5.81331004927227 -6 5.61331004927227 -5.8 5.61331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 5.61331004927227 -2.95 5.66287526666358</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 5.66287526666358 -0.05 5.71331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 5.71331004927227 0 5.71331004927227 0.05 5.71331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 5.71331004927227 2.9 5.66374483188097</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 5.66374483188097 5.8 5.61331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 5.61331004927227 6 5.61331004927227 6 5.81331004927227 6.2 5.81331004927227 6.2 6.61331004927227 6.2 5.81331004927227 7.8 5.81331004927227 8 5.81331004927227 8 6.81331004927227 8 5.81331004927227 8 5.61331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="bridge">
+						<PntList2D>-8 5.61331004927227 -8 5.11331004927227 -6 4.61331004927227 -5 4.11331004927227 5 4.11331004927227 6 4.61331004927227 8 5.11331004927227 8 5.61331004927227</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Crossing-street - cross-Bridge 2" sta="182.343118729434">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 5.61331004927227 -8 5.81331004927227 -8 6.81331004927227 -8 5.81331004927227 -7.8 5.81331004927227 -6.2 5.81331004927227 -6.2 6.61331004927227 -6.2 5.81331004927227 -6 5.81331004927227 -6 5.61331004927227 -5.8 5.61331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 5.61331004927227 -2.95 5.66287526666358</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 5.66287526666358 -0.05 5.71331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 5.71331004927227 0 5.71331004927227 0.05 5.71331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 5.71331004927227 2.9 5.66374483188097</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 5.66374483188097 5.8 5.61331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 5.61331004927227 6 5.61331004927227 6 5.81331004927227 6.2 5.81331004927227 6.2 6.61331004927227 6.2 5.81331004927227 7.8 5.81331004927227 8 5.81331004927227 8 6.81331004927227 8 5.81331004927227 8 5.61331004927227</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="bridge">
+						<PntList2D>-8 5.61331004927227 -8 5.11331004927227 -6 4.61331004927227 -5 4.11331004927227 5 4.11331004927227 6 4.61331004927227 8 5.11331004927227 8 5.61331004927227</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Crossing-street - cross-Bridge 3" sta="379.904283834479">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 2.00271076168404 -8 2.20271076168404 -8 3.20271076168404 -8 2.20271076168404 -7.8 2.20271076168404 -6.2 2.20271076168404 -6.2 3.00271076168404 -6.2 2.20271076168404 -6 2.20271076168404 -6 2.00271076168404 -5.8 2.00271076168404</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 2.00271076168404 -2.95 2.05227597907534</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 2.05227597907534 -0.05 2.10271076168404</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 2.10271076168404 0 2.10271076168404 0.05 2.10271076168404</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 2.10271076168404 2.9 2.05314554429273</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 2.05314554429273 5.8 2.00271076168404</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 2.00271076168404 6 2.00271076168404 6 2.20271076168404 6.2 2.20271076168404 6.2 3.00271076168404 6.2 2.20271076168404 7.8 2.20271076168404 8 2.20271076168404 8 3.20271076168404 8 2.20271076168404 8 2.00271076168404</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Crossing-street - cross-main 3" sta="399.493112625917">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 1.97686389411545 -8 2.17686389411545 -8 2.17686389411545 -8 2.17686389411545 -7.8 2.17686389411545 -6.2 2.17686389411545 -6.2 2.97686389411545 -6.2 2.17686389411545 -6 2.17686389411545 -6 1.97686389411545 -5.8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 1.97686389411545 -2.95 2.02642911150675</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 2.02642911150675 -0.05 2.07686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 2.07686389411545 0 2.07686389411545 0.05 2.07686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 2.07686389411545 2.9 2.02729867672415</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 2.02729867672415 5.8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 1.97686389411545 6 1.97686389411545 6 2.17686389411545 6.2 2.17686389411545 6.2 2.97686389411545 6.2 2.17686389411545 7.8 2.17686389411545 8 2.17686389411545 8 2.17686389411545 8 2.17686389411545 8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Crossing-street - cross-crossing 2" sta="436.643106522402">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 1.97686389411545 -8 2.17686389411545 -8 2.17686389411545 -8 2.17686389411545 -7.8 2.17686389411545 -6.2 2.17686389411545 -6.2 2.17686389411545 -6.2 2.17686389411545 -6 2.17686389411545 -6 1.97686389411545 -5.8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 1.97686389411545 -2.95 2.02642911150675</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 2.02642911150675 -0.05 2.07686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 2.07686389411545 0 2.07686389411545 0.05 2.07686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 2.07686389411545 2.9 2.02729867672415</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 2.02729867672415 5.8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 1.97686389411545 6 1.97686389411545 6 2.17686389411545 6.2 2.17686389411545 6.2 2.17686389411545 6.2 2.17686389411545 7.8 2.17686389411545 8 2.17686389411545 8 2.17686389411545 8 2.17686389411545 8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Crossing-street - cross-main 4" sta="486.843118729433">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 1.97686389411545 -8 2.17686389411545 -8 2.17686389411545 -8 2.17686389411545 -7.8 2.17686389411545 -6.2 2.17686389411545 -6.2 2.97686389411545 -6.2 2.17686389411545 -6 2.17686389411545 -6 1.97686389411545 -5.8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 1.97686389411545 -2.95 2.02642911150675</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 2.02642911150675 -0.05 2.07686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 2.07686389411545 0 2.07686389411545 0.05 2.07686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 2.07686389411545 2.9 2.02729867672415</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 2.02729867672415 5.8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 1.97686389411545 6 1.97686389411545 6 2.17686389411545 6.2 2.17686389411545 6.2 2.97686389411545 6.2 2.17686389411545 7.8 2.17686389411545 8 2.17686389411545 8 2.17686389411545 8 2.17686389411545 8 1.97686389411545</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+		<Alignment name="Little-Street" length="423.732230902239" staStart="0">
+			<CoordGeom>
+				<Line length="138.242578543428">
+					<Start>-144302.431285148 -43979.2713078371</Start>
+					<End>-144312.997996694 -43841.4331595274</End>
+				</Line>
+				<Curve length="31.0635042389929" radius="20.0000000000127" crvType="arc" rot="cw" chord="28.0339764863097" delta="1.55317521194866" dirStart="1.64730626209552" dirEnd="3.20048147404341">
+					<Start>-144312.997996694 -43841.4331595274</Start>
+					<End>-144334.116583335 -43822.996534676</End>
+					<Center>-144332.939487542 -43842.961865765</Center>
+				</Curve>
+				<Line length="254.426148119818">
+					<Start>-144334.116583335 -43822.996534676</Start>
+					<End>-144588.101695304 -43837.9707707277</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="Little-Street" staStart="0">
+				<ProfAlign name="Little-Street Profile">
+					<PVI>0 2.64465852171715</PVI>
+					<PVI>436.524276215383 2.13607034446385</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="Little-Street - little 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-14.5 2.74465852171715 -14.5 2.94465852171715 -6 2.94465852171715 -3 2.94465852171715 -3 2.74465852171715 -2.8 2.74465852171715</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-2.8 2.74465852171715 0 2.74465852171715</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>0 2.74465852171715 2.8 2.74465852171715</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-4">
+						<PntList2D>2.8 2.74465852171715 3 2.74465852171715 3 2.94465852171715 6.5 2.94465852171715 6.5 2.74465852171715</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+		<Alignment name="Pavment" length="387.598731869375" staStart="0">
+			<CoordGeom>
+				<Line length="174.143104724454">
+					<Start>-144030.585582023 -43890.1231144777</Start>
+					<End>-144188.044536653 -43815.7423472745</End>
+				</Line>
+				<Curve length="35.1578451709005" radius="179.999999999997" crvType="arc" rot="ccw" chord="35.1019848550577" delta="0.195321362060561" dirStart="2.70028266935005" dirEnd="2.50496130728951">
+					<Start>-144188.044536653 -43815.7423472745</Start>
+					<End>-144218.170374447 -43797.7261535034</End>
+					<Center>-144111.162160911 -43652.9876229184</Center>
+				</Curve>
+				<Line length="178.297781974021">
+					<Start>-144218.170374447 -43797.7261535034</Start>
+					<End>-144361.540171866 -43691.7299260011</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="Pavment" staStart="0">
+				<ProfAlign name="Pavment Profile">
+					<PVI>0 1.52017625481571</PVI>
+					<ParaCurve length="34.1799626056076">57.3341308223097 1.47768944458206</ParaCurve>
+					<ParaCurve length="24.2567476555926">113.014392486283 0.246281574097009</ParaCurve>
+					<ParaCurve length="50">171.899770206453 1.18215155566564</ParaCurve>
+					<ParaCurve length="50">289.187752723819 1.11479592019818</ParaCurve>
+					<PVI>401.807194237548 1.47855860638659</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="Pavment - pavement1 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-9 1.52017625481571 -5 1.52017625481571</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5 1.52017625481571 -2.3 1.52017625481571</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-3">
+						<PntList2D>-2.3 1.52017625481571 -2.3 1.52017625481571 -1.8 1.52017625481571</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-4">
+						<PntList2D>-1.8 1.52017625481571 1.8 1.52017625481571</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>1.8 1.52017625481571 2.3 1.52017625481571</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Pavment - pavement1 2" sta="14.2648667262871">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-9 1.50960543640588 -5 1.50960543640588</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5 1.50960543640588 -2.3 1.50960543640588</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-3">
+						<PntList2D>-2.3 1.50960543640588 -2.3 1.50960543640588 -1.8 1.50960543640588</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-4">
+						<PntList2D>-1.8 1.50960543640588 1.8 1.50960543640588</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>1.8 1.50960543640588 2.3 1.50960543640588</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Pavment - pavement2 1" sta="192.350006103516">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-24 1.16699868192991 -19 1.16699868192991</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-19 1.16699868192991 -16.3 1.16699868192991</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-3">
+						<PntList2D>-16.3 1.16699868192991 -2.3 1.16699868192991 -1.8 1.16699868192991</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-4">
+						<PntList2D>-1.8 1.16699868192991 1.8 1.16699868192991</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>1.8 1.16699868192991 2.3 1.16699868192991</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Pavment - pavement2 2" sta="192.550003051758">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-24 1.16717692755667 -19 1.16717692755667</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-19 1.16717692755667 -16.3 1.16717692755667</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-3">
+						<PntList2D>-16.3 1.16717692755667 -2.3 1.16717692755667 -1.8 1.16717692755667</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-4">
+						<PntList2D>-1.8 1.16717692755667 1.8 1.16717692755667</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>1.8 1.16717692755667 2.3 1.16717692755667</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Pavment - pavement3 1" sta="213.559997558594">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-20 1.15822710043335 -17 1.15822710043335</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-17 1.15822710043335 -14.3 1.15822710043335</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-3">
+						<PntList2D>-14.3 1.15822710043335 -2.3 1.15822710043335 -1.8 1.15822710043335</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-4">
+						<PntList2D>-1.8 1.15822710043335 1.8 1.15822710043335</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>1.8 1.15822710043335 2.3 1.15822710043335</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Pavment - pavement3 2" sta="213.884885690719">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-20 1.15804052508159 -17 1.15804052508159</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-17 1.15804052508159 -14.3 1.15804052508159</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-3">
+						<PntList2D>-14.3 1.15804052508159 -2.3 1.15804052508159 -1.8 1.15804052508159</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-4">
+						<PntList2D>-1.8 1.15804052508159 1.8 1.15804052508159</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>1.8 1.15804052508159 2.3 1.15804052508159</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+				<CrossSect name="Pavment - pavement4 1" sta="330.230010986329">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-13 1.24736310320085 -10 1.24736310320085</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-10 1.24736310320085 -7.3 1.24736310320085</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-3">
+						<PntList2D>-7.3 1.24736310320085 -2.3 1.24736310320085 -1.8 1.24736310320085</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-4">
+						<PntList2D>-1.8 1.24736310320085 1.8 1.24736310320085</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>1.8 1.24736310320085 2.3 1.24736310320085</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+		<Alignment name="street1" length="306.278474420251" staStart="0">
+			<CoordGeom>
+				<Line length="306.278474420251">
+					<Start>-144179.557749991 -43537.6522892824</Start>
+					<End>-143900.492808585 -43663.863470923</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="street1" staStart="0">
+				<ProfAlign name="street1 Profile">
+					<PVI>0 5.80000019073486</PVI>
+					<PVI>306.279998779297 5.80000019073486</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="street1 - street1 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-8 5.80000019073486 -8 6.00000019073486 -8 6.00000019073486 -8 6.00000019073486 -7.8 6.00000019073486 -6.2 6.00000019073486 -6 6.00000019073486 -6 5.80000019073486 -5.8 5.80000019073486</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-5.8 5.80000019073486 -2.95 5.84956540812616</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>-2.95 5.84956540812616 -0.05 5.90000019073486</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="median" desc="width-4">
+						<PntList2D>-0.05 5.90000019073486 0 5.90000019073486 0.05 5.90000019073486</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-5">
+						<PntList2D>0.05 5.90000019073486 2.9 5.85043497334356</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-6">
+						<PntList2D>2.9 5.85043497334356 5.8 5.80000019073486</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-7">
+						<PntList2D>5.8 5.80000019073486 6 5.80000019073486 6 6.00000019073486 6.2 6.00000019073486 7.8 6.00000019073486 8 6.00000019073486 8 6.00000019073486 8 6.00000019073486 8 5.80000019073486</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+		<Alignment name="short" length="68.7890305167562" staStart="0">
+			<CoordGeom>
+				<Line length="68.7890305167562">
+					<Start>-144046.888316398 -43650.0726994386</Start>
+					<End>-143984.050425773 -43622.0846623293</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="short" staStart="0">
+				<ProfAlign name="short Profile">
+					<PVI>0 5.76683530806086</PVI>
+					<PVI>69.7890007828638 5.74979565952919</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="short - short 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-2.5 5.86683530806086 -2 5.86683530806086</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-2 5.86683530806086 2 5.86683530806086</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-3">
+						<PntList2D>2 5.86683530806086 2.5 5.86683530806086</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+		<Alignment name="L-road" length="56.7524896320584" staStart="0">
+			<CoordGeom>
+				<Line length="56.7524896320584">
+					<Start>-144581.888804679 -43891.3800724855</Start>
+					<End>-144585.260874991 -43834.7278508058</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="L-road" staStart="0">
+				<ProfAlign name="L-road Profile">
+					<PVI>0 2.63398393247787</PVI>
+					<PVI>57.7525891033677 2.22875563517358</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="L-road - L-road 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-6.5 2.73398393247787 -6.5 2.93398393247787 -3 2.93398393247787 -3 2.73398393247787 -2.8 2.73398393247787</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-2.8 2.73398393247787 0 2.73398393247787</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-3">
+						<PntList2D>0 2.73398393247787 2.8 2.73398393247787</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-4">
+						<PntList2D>2.8 2.73398393247787 3 2.73398393247787 3 2.93398393247787 6.5 2.93398393247787 6.5 2.73398393247787</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+		<Alignment name="river" length="453.379672942903" staStart="0">
+			<CoordGeom>
+				<Line length="222.510107667469">
+					<Start>-143942.187632804 -43834.9008244386</Start>
+					<End>-144136.081741648 -43725.7412047547</End>
+				</Line>
+				<Spiral spiType="clothoid" length="0.0573234540057355" radiusStart="INF" radiusEnd="162" rot="ccw" chord="0.057323453925149" constant="3.04735943874843" dirStart="2.62865821826914" dirEnd="2.62883514295572" theta="0.000176924686796443" tanLong="0.0379448458943981" tanShort="0.0193786082315168">
+					<Start>-144136.081741648 -43725.7412047547</Start>
+					<End>-144136.13169134 -43725.713079913</End>
+					<PI>-144136.114806599 -43725.7225896967</PI>
+				</Spiral>
+				<Curve length="14.2999999999914" radius="162.000000000003" crvType="arc" rot="ccw" chord="14.2953577925663" delta="0.0882716049382169" dirStart="2.62865738280721" dirEnd="2.54038577786892">
+					<Start>-144136.13169134 -43725.713079913</Start>
+					<End>-144148.265695106 -43718.1550902981</End>
+					<Center>-144056.632316514 -43584.5612134627</Center>
+				</Curve>
+				<Spiral spiType="clothoid" length="0.0573234540057354" radiusStart="162" radiusEnd="INF" rot="ccw" chord="0.0573234539433487" constant="3.04735943874843" dirStart="2.54020691529342" dirEnd="2.54038384047636" theta="0.000176925183156729" tanLong="0.0375876263437211" tanShort="0.0197358278021706">
+					<Start>-144148.265695106 -43718.1550902981</Start>
+					<End>-144148.312963271 -43718.1226603908</End>
+					<PI>-144148.281970305 -43718.1439269297</PI>
+				</Spiral>
+				<Line length="216.454918367431">
+					<Start>-144148.312963271 -43718.1226603908</Start>
+					<End>-144326.79163671 -43595.6559513918</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="river" staStart="0">
+				<ProfAlign name="river Profile">
+					<PVI>0 0</PVI>
+					<PVI>457 0</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="river - river 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-45.5 0 -45.5 1 -45 1 -45 0.5 -45 -2</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-45 -2 75 -2</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-3">
+						<PntList2D>75 -2 75 0.5</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-4">
+						<PntList2D>75 0.5 75 1</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="otherWidth" desc="width-5">
+						<PntList2D>75 1 75.5 1</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="sidewalk" desc="width-6">
+						<PntList2D>75.5 1 75.5 0</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+		<Alignment name="connect" length="23.2898150571657" staStart="0">
+			<CoordGeom>
+				<Line length="23.2898150571657">
+					<Start>-144569.852671866 -43887.779486548</Start>
+					<End>-144593.097300773 -43889.2295597902</End>
+				</Line>
+			</CoordGeom>
+			<Profile name="connect" staStart="0">
+				<ProfAlign name="connect Profile">
+					<PVI>0 2.58425800618053</PVI>
+					<PVI>23.2898174469574 2.69918115286307</PVI>
+				</ProfAlign>
+			</Profile>
+			<CrossSects>
+				<CrossSect name="connect - Main2-2 1" sta="0">
+					<CrossSectSurf name="otherWidth" desc="width-1">
+						<PntList2D>-10 2.58425800618053 -10 2.78425800618053 -3.7 2.78425800618053 -2.6 2.78425800618053 -2.6 2.78425800618053 -2.6 2.78425800618053 -2.4 2.78425800618053 -2.4 2.58425800618053 -2.2 2.58425800618053</PntList2D>
+					</CrossSectSurf>
+					<CrossSectSurf name="roadway" desc="width-2">
+						<PntList2D>-2.2 2.58425800618053 1.2 2.63425800618053</PntList2D>
+					</CrossSectSurf>
+				</CrossSect>
+			</CrossSects>
+		</Alignment>
+	</Alignments>
+	<Surfaces>
+		<Surface name="Terrain">
+			<Definition SurfType="TIN">
+				<Pnts>
+					<P id="1">-143742.519664054 -44438.4938420168 4</P>
+					<P id="2">-143788.982066398 -44438.4938420168 4</P>
+					<P id="3">-143788.982066398 -44380.9906681886 4</P>
+					<P id="4">-143742.519664054 -44380.9906681886 4</P>
+					<P id="5">-143835.444468741 -44438.4938420168 4</P>
+					<P id="6">-143835.444468741 -44380.9906681886 3</P>
+					<P id="7">-143881.907359366 -44438.4938420168 3</P>
+					<P id="8">-143881.907359366 -44380.9906681886 3</P>
+					<P id="9">-143928.36976171 -44438.4938420168 3</P>
+					<P id="10">-143928.36976171 -44380.9906681886 3</P>
+					<P id="11">-143974.832652335 -44438.4938420168 3</P>
+					<P id="12">-143974.832652335 -44380.9906681886 3</P>
+					<P id="13">-144021.295054679 -44438.4938420168 3</P>
+					<P id="14">-144021.295054679 -44380.9906681886 3</P>
+					<P id="15">-144067.757945304 -44438.4938420168 3</P>
+					<P id="16">-144067.757945304 -44380.9906681886 3</P>
+					<P id="17">-144114.220347648 -44438.4938420168 4</P>
+					<P id="18">-144114.220347648 -44380.9906681886 4</P>
+					<P id="19">-144160.683238273 -44438.4938420168 4</P>
+					<P id="20">-144160.683238273 -44380.9906681886 4</P>
+					<P id="21">-144207.145640616 -44438.4938420168 4</P>
+					<P id="22">-144207.145640616 -44380.9906681886 3</P>
+					<P id="23">-144253.608531241 -44438.4938420168 3</P>
+					<P id="24">-144253.608531241 -44380.9906681886 3</P>
+					<P id="25">-144300.070933585 -44438.4938420168 3</P>
+					<P id="26">-144300.070933585 -44380.9906681886 3</P>
+					<P id="27">-144346.533335929 -44438.4938420168 3</P>
+					<P id="28">-144346.533335929 -44380.9906681886 3</P>
+					<P id="29">-144392.996226554 -44438.4938420168 3</P>
+					<P id="30">-144392.996226554 -44380.9906681886 3</P>
+					<P id="31">-144439.458628898 -44438.4938420168 3</P>
+					<P id="32">-144439.458628898 -44380.9906681886 3</P>
+					<P id="33">-144485.921519523 -44438.4938420168 3</P>
+					<P id="34">-144485.921519523 -44380.9906681886 3</P>
+					<P id="35">-144532.383921866 -44438.4938420168 4</P>
+					<P id="36">-144532.383921866 -44380.9906681886 4</P>
+					<P id="37">-144578.846812491 -44438.4938420168 4</P>
+					<P id="38">-144578.846812491 -44380.9906681886 4</P>
+					<P id="39">-144625.309214835 -44438.4938420168 4</P>
+					<P id="40">-144625.309214835 -44380.9906681886 4</P>
+					<P id="41">-144671.77210546 -44438.4938420168 4</P>
+					<P id="42">-144671.77210546 -44380.9906681886 4</P>
+					<P id="43">-144718.234507804 -44438.4938420168 4</P>
+					<P id="44">-144718.234507804 -44380.9906681886 4</P>
+					<P id="45">-144764.697398429 -44438.4938420168 4</P>
+					<P id="46">-144764.697398429 -44380.9906681886 4</P>
+					<P id="47">-144811.159800773 -44438.4938420168 4</P>
+					<P id="48">-144811.159800773 -44380.9906681886 4</P>
+					<P id="49">-144857.622203116 -44438.4938420168 4</P>
+					<P id="50">-144857.622203116 -44380.9906681886 4</P>
+					<P id="51">-144904.085093741 -44438.4938420168 4</P>
+					<P id="52">-144904.085093741 -44380.9906681886 4</P>
+					<P id="53">-144950.547496085 -44438.4938420168 4</P>
+					<P id="54">-144950.547496085 -44380.9906681886 4</P>
+					<P id="55">-144997.01038671 -44438.4938420168 4</P>
+					<P id="56">-144997.01038671 -44380.9906681886 4</P>
+					<P id="57">-145043.472789054 -44438.4938420168 4</P>
+					<P id="58">-145043.472789054 -44380.9906681886 4</P>
+					<P id="59">-145089.935679679 -44438.4938420168 4</P>
+					<P id="60">-145089.935679679 -44380.9906681886 4</P>
+					<P id="61">-145136.398082023 -44438.4938420168 4</P>
+					<P id="62">-145136.398082023 -44380.9906681886 4</P>
+					<P id="63">-143788.982066398 -44323.4874943605 3</P>
+					<P id="64">-143742.519664054 -44323.4874943605 4</P>
+					<P id="65">-143835.444468741 -44323.4874943605 3</P>
+					<P id="66">-143881.907359366 -44323.4874943605 3</P>
+					<P id="67">-143928.36976171 -44323.4874943605 3</P>
+					<P id="68">-143974.832652335 -44323.4874943605 3</P>
+					<P id="69">-144021.295054679 -44323.4874943605 3</P>
+					<P id="70">-144067.757945304 -44323.4874943605 3</P>
+					<P id="71">-144114.220347648 -44323.4874943605 4</P>
+					<P id="72">-144160.683238273 -44323.4874943605 4</P>
+					<P id="73">-144207.145640616 -44323.4874943605 3</P>
+					<P id="74">-144253.608531241 -44323.4874943605 3</P>
+					<P id="75">-144300.070933585 -44323.4874943605 3</P>
+					<P id="76">-144346.533335929 -44323.4874943605 3</P>
+					<P id="77">-144392.996226554 -44323.4874943605 3</P>
+					<P id="78">-144439.458628898 -44323.4874943605 3</P>
+					<P id="79">-144485.921519523 -44323.4874943605 3</P>
+					<P id="80">-144532.383921866 -44323.4874943605 4</P>
+					<P id="81">-144578.846812491 -44323.4874943605 4</P>
+					<P id="82">-144625.309214835 -44323.4874943605 4</P>
+					<P id="83">-144671.77210546 -44323.4874943605 4</P>
+					<P id="84">-144718.234507804 -44323.4874943605 4</P>
+					<P id="85">-144764.697398429 -44323.4874943605 4</P>
+					<P id="86">-144811.159800773 -44323.4874943605 4</P>
+					<P id="87">-144857.622203116 -44323.4874943605 4</P>
+					<P id="88">-144904.085093741 -44323.4874943605 4</P>
+					<P id="89">-144950.547496085 -44323.4874943605 4</P>
+					<P id="90">-144997.01038671 -44323.4874943605 4</P>
+					<P id="91">-145043.472789054 -44323.4874943605 4</P>
+					<P id="92">-145089.935679679 -44323.4874943605 4</P>
+					<P id="93">-145136.398082023 -44323.4874943605 4</P>
+					<P id="94">-143788.982066398 -44265.9843205324 3</P>
+					<P id="95">-143742.519664054 -44265.9843205324 3</P>
+					<P id="96">-143835.444468741 -44265.9843205324 3</P>
+					<P id="97">-143881.907359366 -44265.9843205324 3</P>
+					<P id="98">-143928.36976171 -44265.9843205324 3</P>
+					<P id="99">-143974.832652335 -44265.9843205324 3</P>
+					<P id="100">-144021.295054679 -44265.9843205324 3</P>
+					<P id="101">-144067.757945304 -44265.9843205324 3</P>
+					<P id="102">-144114.220347648 -44265.9843205324 4</P>
+					<P id="103">-144160.683238273 -44265.9843205324 4</P>
+					<P id="104">-144207.145640616 -44265.9843205324 4</P>
+					<P id="105">-144253.608531241 -44265.9843205324 4</P>
+					<P id="106">-144300.070933585 -44265.9843205324 4</P>
+					<P id="107">-144346.533335929 -44265.9843205324 3</P>
+					<P id="108">-144392.996226554 -44265.9843205324 3</P>
+					<P id="109">-144439.458628898 -44265.9843205324 3</P>
+					<P id="110">-144485.921519523 -44265.9843205324 3</P>
+					<P id="111">-144532.383921866 -44265.9843205324 3</P>
+					<P id="112">-144578.846812491 -44265.9843205324 3</P>
+					<P id="113">-144625.309214835 -44265.9843205324 4</P>
+					<P id="114">-144671.77210546 -44265.9843205324 4</P>
+					<P id="115">-144718.234507804 -44265.9843205324 4</P>
+					<P id="116">-144764.697398429 -44265.9843205324 4</P>
+					<P id="117">-144811.159800773 -44265.9843205324 4</P>
+					<P id="118">-144857.622203116 -44265.9843205324 4</P>
+					<P id="119">-144904.085093741 -44265.9843205324 4</P>
+					<P id="120">-144950.547496085 -44265.9843205324 4</P>
+					<P id="121">-144997.01038671 -44265.9843205324 4</P>
+					<P id="122">-145043.472789054 -44265.9843205324 4</P>
+					<P id="123">-145089.935679679 -44265.9843205324 4</P>
+					<P id="124">-145136.398082023 -44265.9843205324 4</P>
+					<P id="125">-143788.982066398 -44208.4810246339 3</P>
+					<P id="126">-143742.519664054 -44208.4810246339 3</P>
+					<P id="127">-143835.444468741 -44208.4810246339 3</P>
+					<P id="128">-143881.907359366 -44208.4810246339 3</P>
+					<P id="129">-143928.36976171 -44208.4810246339 3</P>
+					<P id="130">-143974.832652335 -44208.4810246339 3</P>
+					<P id="131">-144021.295054679 -44208.4810246339 3</P>
+					<P id="132">-144067.757945304 -44208.4810246339 3</P>
+					<P id="133">-144114.220347648 -44208.4810246339 4</P>
+					<P id="134">-144160.683238273 -44208.4810246339 4</P>
+					<P id="135">-144207.145640616 -44208.4810246339 4</P>
+					<P id="136">-144253.608531241 -44208.4810246339 4</P>
+					<P id="137">-144300.070933585 -44208.4810246339 4</P>
+					<P id="138">-144346.533335929 -44208.4810246339 3</P>
+					<P id="139">-144392.996226554 -44208.4810246339 3</P>
+					<P id="140">-144439.458628898 -44208.4810246339 3</P>
+					<P id="141">-144485.921519523 -44208.4810246339 3</P>
+					<P id="142">-144532.383921866 -44208.4810246339 4</P>
+					<P id="143">-144578.846812491 -44208.4810246339 4</P>
+					<P id="144">-144625.309214835 -44208.4810246339 4</P>
+					<P id="145">-144671.77210546 -44208.4810246339 4</P>
+					<P id="146">-144718.234507804 -44208.4810246339 4</P>
+					<P id="147">-144764.697398429 -44208.4810246339 4</P>
+					<P id="148">-144811.159800773 -44208.4810246339 4</P>
+					<P id="149">-144857.622203116 -44208.4810246339 4</P>
+					<P id="150">-144904.085093741 -44208.4810246339 4</P>
+					<P id="151">-144950.547496085 -44208.4810246339 4</P>
+					<P id="152">-144997.01038671 -44208.4810246339 4</P>
+					<P id="153">-145043.472789054 -44208.4810246339 4</P>
+					<P id="154">-145089.935679679 -44208.4810246339 4</P>
+					<P id="155">-145136.398082023 -44208.4810246339 4</P>
+					<P id="156">-143788.982066398 -44150.9778508058 2</P>
+					<P id="157">-143742.519664054 -44150.9778508058 2</P>
+					<P id="158">-143835.444468741 -44150.9778508058 3</P>
+					<P id="159">-143881.907359366 -44150.9778508058 3</P>
+					<P id="160">-143928.36976171 -44150.9778508058 3</P>
+					<P id="161">-143974.832652335 -44150.9778508058 3</P>
+					<P id="162">-144021.295054679 -44150.9778508058 3</P>
+					<P id="163">-144067.757945304 -44150.9778508058 3</P>
+					<P id="164">-144114.220347648 -44150.9778508058 4</P>
+					<P id="165">-144160.683238273 -44150.9778508058 4</P>
+					<P id="166">-144207.145640616 -44150.9778508058 4</P>
+					<P id="167">-144253.608531241 -44150.9778508058 2</P>
+					<P id="168">-144300.070933585 -44150.9778508058 2</P>
+					<P id="169">-144346.533335929 -44150.9778508058 3</P>
+					<P id="170">-144392.996226554 -44150.9778508058 3</P>
+					<P id="171">-144439.458628898 -44150.9778508058 3</P>
+					<P id="172">-144485.921519523 -44150.9778508058 3</P>
+					<P id="173">-144532.383921866 -44150.9778508058 4</P>
+					<P id="174">-144578.846812491 -44150.9778508058 4</P>
+					<P id="175">-144625.309214835 -44150.9778508058 4</P>
+					<P id="176">-144671.77210546 -44150.9778508058 4</P>
+					<P id="177">-144718.234507804 -44150.9778508058 4</P>
+					<P id="178">-144764.697398429 -44150.9778508058 4</P>
+					<P id="179">-144811.159800773 -44150.9778508058 4</P>
+					<P id="180">-144857.622203116 -44150.9778508058 4</P>
+					<P id="181">-144904.085093741 -44150.9778508058 4</P>
+					<P id="182">-144950.547496085 -44150.9778508058 4</P>
+					<P id="183">-144997.01038671 -44150.9778508058 4</P>
+					<P id="184">-145043.472789054 -44150.9778508058 4</P>
+					<P id="185">-145089.935679679 -44150.9778508058 4</P>
+					<P id="186">-145136.398082023 -44150.9778508058 4</P>
+					<P id="187">-143788.982066398 -44093.4746769777 2</P>
+					<P id="188">-143742.519664054 -44093.4746769777 2</P>
+					<P id="189">-143835.444468741 -44093.4746769777 2</P>
+					<P id="190">-143881.907359366 -44093.4746769777 3</P>
+					<P id="191">-143928.36976171 -44093.4746769777 3</P>
+					<P id="192">-143974.832652335 -44093.4746769777 3</P>
+					<P id="193">-144021.295054679 -44093.4746769777 3</P>
+					<P id="194">-144067.757945304 -44093.4746769777 3</P>
+					<P id="195">-144114.220347648 -44093.4746769777 3</P>
+					<P id="196">-144160.683238273 -44093.4746769777 3</P>
+					<P id="197">-144207.145640616 -44093.4746769777 2</P>
+					<P id="198">-144253.608531241 -44093.4746769777 2</P>
+					<P id="199">-144300.070933585 -44093.4746769777 2</P>
+					<P id="200">-144346.533335929 -44093.4746769777 3</P>
+					<P id="201">-144392.996226554 -44093.4746769777 3</P>
+					<P id="202">-144439.458628898 -44093.4746769777 3</P>
+					<P id="203">-144485.921519523 -44093.4746769777 3</P>
+					<P id="204">-144532.383921866 -44093.4746769777 4</P>
+					<P id="205">-144578.846812491 -44093.4746769777 4</P>
+					<P id="206">-144625.309214835 -44093.4746769777 4</P>
+					<P id="207">-144671.77210546 -44093.4746769777 4</P>
+					<P id="208">-144718.234507804 -44093.4746769777 4</P>
+					<P id="209">-144764.697398429 -44093.4746769777 4</P>
+					<P id="210">-144811.159800773 -44093.4746769777 4</P>
+					<P id="211">-144857.622203116 -44093.4746769777 4</P>
+					<P id="212">-144904.085093741 -44093.4746769777 4</P>
+					<P id="213">-144950.547496085 -44093.4746769777 4</P>
+					<P id="214">-144997.01038671 -44093.4746769777 4</P>
+					<P id="215">-145043.472789054 -44093.4746769777 4</P>
+					<P id="216">-145089.935679679 -44093.4746769777 4</P>
+					<P id="217">-145136.398082023 -44093.4746769777 4</P>
+					<P id="218">-143788.982066398 -44035.9715031496 2</P>
+					<P id="219">-143742.519664054 -44035.9715031496 1</P>
+					<P id="220">-143835.444468741 -44035.9715031496 2</P>
+					<P id="221">-143881.907359366 -44035.9715031496 3</P>
+					<P id="222">-143928.36976171 -44035.9715031496 3</P>
+					<P id="223">-143974.832652335 -44035.9715031496 2</P>
+					<P id="224">-144021.295054679 -44035.9715031496 3</P>
+					<P id="225">-144067.757945304 -44035.9715031496 3</P>
+					<P id="226">-144114.220347648 -44035.9715031496 3</P>
+					<P id="227">-144160.683238273 -44035.9715031496 3</P>
+					<P id="228">-144207.145640616 -44035.9715031496 2</P>
+					<P id="229">-144253.608531241 -44035.9715031496 2</P>
+					<P id="230">-144300.070933585 -44035.9715031496 3</P>
+					<P id="231">-144346.533335929 -44035.9715031496 3</P>
+					<P id="232">-144392.996226554 -44035.9715031496 3</P>
+					<P id="233">-144439.458628898 -44035.9715031496 3</P>
+					<P id="234">-144485.921519523 -44035.9715031496 3</P>
+					<P id="235">-144532.383921866 -44035.9715031496 4</P>
+					<P id="236">-144578.846812491 -44035.9715031496 4</P>
+					<P id="237">-144625.309214835 -44035.9715031496 4</P>
+					<P id="238">-144671.77210546 -44035.9715031496 4</P>
+					<P id="239">-144718.234507804 -44035.9715031496 4</P>
+					<P id="240">-144764.697398429 -44035.9715031496 4</P>
+					<P id="241">-144811.159800773 -44035.9715031496 4</P>
+					<P id="242">-144857.622203116 -44035.9715031496 4</P>
+					<P id="243">-144904.085093741 -44035.9715031496 4</P>
+					<P id="244">-144950.547496085 -44035.9715031496 4</P>
+					<P id="245">-144997.01038671 -44035.9715031496 4</P>
+					<P id="246">-145043.472789054 -44035.9715031496 4</P>
+					<P id="247">-145089.935679679 -44035.9715031496 4</P>
+					<P id="248">-145136.398082023 -44035.9715031496 4</P>
+					<P id="249">-143788.982066398 -43978.4683293214 2</P>
+					<P id="250">-143742.519664054 -43978.4683293214 2</P>
+					<P id="251">-143835.444468741 -43978.4683293214 3</P>
+					<P id="252">-143881.907359366 -43978.4683293214 3</P>
+					<P id="253">-143928.36976171 -43978.4683293214 2</P>
+					<P id="254">-143974.832652335 -43978.4683293214 2</P>
+					<P id="255">-144021.295054679 -43978.4683293214 2</P>
+					<P id="256">-144067.757945304 -43978.4683293214 2</P>
+					<P id="257">-144114.220347648 -43978.4683293214 2</P>
+					<P id="258">-144160.683238273 -43978.4683293214 2</P>
+					<P id="259">-144207.145640616 -43978.4683293214 1</P>
+					<P id="260">-144253.608531241 -43978.4683293214 2</P>
+					<P id="261">-144300.070933585 -43978.4683293214 3</P>
+					<P id="262">-144346.533335929 -43978.4683293214 3</P>
+					<P id="263">-144392.996226554 -43978.4683293214 3</P>
+					<P id="264">-144439.458628898 -43978.4683293214 3</P>
+					<P id="265">-144485.921519523 -43978.4683293214 3</P>
+					<P id="266">-144532.383921866 -43978.4683293214 3</P>
+					<P id="267">-144578.846812491 -43978.4683293214 4</P>
+					<P id="268">-144625.309214835 -43978.4683293214 4</P>
+					<P id="269">-144671.77210546 -43978.4683293214 4</P>
+					<P id="270">-144718.234507804 -43978.4683293214 4</P>
+					<P id="271">-144764.697398429 -43978.4683293214 4</P>
+					<P id="272">-144811.159800773 -43978.4683293214 4</P>
+					<P id="273">-144857.622203116 -43978.4683293214 4</P>
+					<P id="274">-144904.085093741 -43978.4683293214 4</P>
+					<P id="275">-144950.547496085 -43978.4683293214 4</P>
+					<P id="276">-144997.01038671 -43978.4683293214 4</P>
+					<P id="277">-145043.472789054 -43978.4683293214 4</P>
+					<P id="278">-145089.935679679 -43978.4683293214 4</P>
+					<P id="279">-145136.398082023 -43978.4683293214 4</P>
+					<P id="280">-143788.982066398 -43920.9651554933 2</P>
+					<P id="281">-143742.519664054 -43920.9651554933 1</P>
+					<P id="282">-143835.444468741 -43920.9651554933 2</P>
+					<P id="283">-143881.907359366 -43920.9651554933 2</P>
+					<P id="284">-143928.36976171 -43920.9651554933 2</P>
+					<P id="285">-143974.832652335 -43920.9651554933 1</P>
+					<P id="286">-144021.295054679 -43920.9651554933 1</P>
+					<P id="287">-144067.757945304 -43920.9651554933 2</P>
+					<P id="288">-144114.220347648 -43920.9651554933 2</P>
+					<P id="289">-144160.683238273 -43920.9651554933 2</P>
+					<P id="290">-144207.145640616 -43920.9651554933 2</P>
+					<P id="291">-144253.608531241 -43920.9651554933 2</P>
+					<P id="292">-144300.070933585 -43920.9651554933 2</P>
+					<P id="293">-144346.533335929 -43920.9651554933 2</P>
+					<P id="294">-144392.996226554 -43920.9651554933 2</P>
+					<P id="295">-144439.458628898 -43920.9651554933 2</P>
+					<P id="296">-144485.921519523 -43920.9651554933 3</P>
+					<P id="297">-144532.383921866 -43920.9651554933 3</P>
+					<P id="298">-144578.846812491 -43920.9651554933 3</P>
+					<P id="299">-144625.309214835 -43920.9651554933 3</P>
+					<P id="300">-144671.77210546 -43920.9651554933 4</P>
+					<P id="301">-144718.234507804 -43920.9651554933 4</P>
+					<P id="302">-144764.697398429 -43920.9651554933 4</P>
+					<P id="303">-144811.159800773 -43920.9651554933 4</P>
+					<P id="304">-144857.622203116 -43920.9651554933 4</P>
+					<P id="305">-144904.085093741 -43920.9651554933 4</P>
+					<P id="306">-144950.547496085 -43920.9651554933 4</P>
+					<P id="307">-144997.01038671 -43920.9651554933 4</P>
+					<P id="308">-145043.472789054 -43920.9651554933 4</P>
+					<P id="309">-145089.935679679 -43920.9651554933 4</P>
+					<P id="310">-145136.398082023 -43920.9651554933 4</P>
+					<P id="311">-143788.982066398 -43863.4618595949 1</P>
+					<P id="312">-143742.519664054 -43863.4618595949 0</P>
+					<P id="313">-143835.444468741 -43863.4618595949 1</P>
+					<P id="314">-143881.907359366 -43863.4618595949 0</P>
+					<P id="315">-143928.36976171 -43863.4618595949 1</P>
+					<P id="316">-143974.832652335 -43863.4618595949 0</P>
+					<P id="317">-144021.295054679 -43863.4618595949 0</P>
+					<P id="318">-144067.757945304 -43863.4618595949 1.20000004768372</P>
+					<P id="319">-144114.220347648 -43863.4618595949 1.5</P>
+					<P id="320">-144160.683238273 -43863.4618595949 1</P>
+					<P id="321">-144207.145640616 -43863.4618595949 2</P>
+					<P id="322">-144253.608531241 -43863.4618595949 2</P>
+					<P id="323">-144300.070933585 -43863.4618595949 2.5</P>
+					<P id="324">-144346.533335929 -43863.4618595949 2.5</P>
+					<P id="325">-144392.996226554 -43863.4618595949 2</P>
+					<P id="326">-144439.458628898 -43863.4618595949 2</P>
+					<P id="327">-144485.921519523 -43863.4618595949 2</P>
+					<P id="328">-144532.383921866 -43863.4618595949 2</P>
+					<P id="329">-144578.846812491 -43863.4618595949 2</P>
+					<P id="330">-144625.309214835 -43863.4618595949 3</P>
+					<P id="331">-144671.77210546 -43863.4618595949 3</P>
+					<P id="332">-144718.234507804 -43863.4618595949 3</P>
+					<P id="333">-144764.697398429 -43863.4618595949 4</P>
+					<P id="334">-144811.159800773 -43863.4618595949 4</P>
+					<P id="335">-144857.622203116 -43863.4618595949 4</P>
+					<P id="336">-144904.085093741 -43863.4618595949 4</P>
+					<P id="337">-144950.547496085 -43863.4618595949 4</P>
+					<P id="338">-144997.01038671 -43863.4618595949 4</P>
+					<P id="339">-145043.472789054 -43863.4618595949 4</P>
+					<P id="340">-145089.935679679 -43863.4618595949 4</P>
+					<P id="341">-145136.398082023 -43863.4618595949 4</P>
+					<P id="342">-143788.982066398 -43805.9586857668 0</P>
+					<P id="343">-143742.519664054 -43805.9586857668 4</P>
+					<P id="344">-143835.444468741 -43805.9586857668 0</P>
+					<P id="345">-143881.907359366 -43805.9586857668 1</P>
+					<P id="346">-143928.36976171 -43805.9586857668 0</P>
+					<P id="347">-143974.832652335 -43805.9586857668 -1.10000002384186</P>
+					<P id="348">-144021.295054679 -43805.9586857668 -1.10000002384186</P>
+					<P id="349">-144067.757945304 -43805.9586857668 -1.10000002384186</P>
+					<P id="350">-144114.220347648 -43805.9586857668 -4</P>
+					<P id="351">-144160.683238273 -43805.9586857668 1</P>
+					<P id="352">-144207.145640616 -43805.9586857668 1</P>
+					<P id="353">-144253.608531241 -43805.9586857668 1</P>
+					<P id="354">-144300.070933585 -43805.9586857668 2.5</P>
+					<P id="355">-144346.533335929 -43805.9586857668 2.5</P>
+					<P id="356">-144392.996226554 -43805.9586857668 2</P>
+					<P id="357">-144439.458628898 -43805.9586857668 2</P>
+					<P id="358">-144485.921519523 -43805.9586857668 2</P>
+					<P id="359">-144532.383921866 -43805.9586857668 2</P>
+					<P id="360">-144578.846812491 -43805.9586857668 2</P>
+					<P id="361">-144625.309214835 -43805.9586857668 3</P>
+					<P id="362">-144671.77210546 -43805.9586857668 3</P>
+					<P id="363">-144718.234507804 -43805.9586857668 3</P>
+					<P id="364">-144764.697398429 -43805.9586857668 4</P>
+					<P id="365">-144811.159800773 -43805.9586857668 4</P>
+					<P id="366">-144857.622203116 -43805.9586857668 4</P>
+					<P id="367">-144904.085093741 -43805.9586857668 3</P>
+					<P id="368">-144950.547496085 -43805.9586857668 4</P>
+					<P id="369">-144997.01038671 -43805.9586857668 4</P>
+					<P id="370">-145043.472789054 -43805.9586857668 4</P>
+					<P id="371">-145089.935679679 -43805.9586857668 4</P>
+					<P id="372">-145136.398082023 -43805.9586857668 4</P>
+					<P id="373">-143788.982066398 -43748.4555119386 4</P>
+					<P id="374">-143742.519664054 -43748.4555119386 4</P>
+					<P id="375">-143835.444468741 -43748.4555119386 4</P>
+					<P id="376">-143881.907359366 -43748.4555119386 6</P>
+					<P id="377">-143928.36976171 -43748.4555119386 0.5</P>
+					<P id="378">-143974.832652335 -43748.4555119386 -1.10000002384186</P>
+					<P id="379">-144021.295054679 -43748.4555119386 -1.10000002384186</P>
+					<P id="380">-144067.757945304 -43748.4555119386 -1.10000002384186</P>
+					<P id="381">-144114.220347648 -43748.4555119386 -7</P>
+					<P id="382">-144160.683238273 -43748.4555119386 -2</P>
+					<P id="383">-144207.145640616 -43748.4555119386 -1</P>
+					<P id="384">-144253.608531241 -43748.4555119386 1.20000004768372</P>
+					<P id="385">-144300.070933585 -43748.4555119386 1.20000004768372</P>
+					<P id="386">-144346.533335929 -43748.4555119386 1.5</P>
+					<P id="387">-144392.996226554 -43748.4555119386 1</P>
+					<P id="388">-144439.458628898 -43748.4555119386 1</P>
+					<P id="389">-144485.921519523 -43748.4555119386 1</P>
+					<P id="390">-144532.383921866 -43748.4555119386 2</P>
+					<P id="391">-144578.846812491 -43748.4555119386 2</P>
+					<P id="392">-144625.309214835 -43748.4555119386 3</P>
+					<P id="393">-144671.77210546 -43748.4555119386 3</P>
+					<P id="394">-144718.234507804 -43748.4555119386 3</P>
+					<P id="395">-144764.697398429 -43748.4555119386 4</P>
+					<P id="396">-144811.159800773 -43748.4555119386 4</P>
+					<P id="397">-144857.622203116 -43748.4555119386 4</P>
+					<P id="398">-144904.085093741 -43748.4555119386 3</P>
+					<P id="399">-144950.547496085 -43748.4555119386 3</P>
+					<P id="400">-144997.01038671 -43748.4555119386 3</P>
+					<P id="401">-145043.472789054 -43748.4555119386 3</P>
+					<P id="402">-145089.935679679 -43748.4555119386 3</P>
+					<P id="403">-145136.398082023 -43748.4555119386 4</P>
+					<P id="404">-143788.982066398 -43690.9523381105 2</P>
+					<P id="405">-143742.519664054 -43690.9523381105 2</P>
+					<P id="406">-143835.444468741 -43690.9523381105 2</P>
+					<P id="407">-143881.907359366 -43690.9523381105 6</P>
+					<P id="408">-143928.36976171 -43690.9523381105 5</P>
+					<P id="409">-143974.832652335 -43690.9523381105 5.59999990463257</P>
+					<P id="410">-144021.295054679 -43690.9523381105 5</P>
+					<P id="411">-144067.757945304 -43690.9523381105 1.79999995231628</P>
+					<P id="412">-144114.220347648 -43690.9523381105 0</P>
+					<P id="413">-144160.683238273 -43690.9523381105 -2</P>
+					<P id="414">-144207.145640616 -43690.9523381105 -1</P>
+					<P id="415">-144253.608531241 -43690.9523381105 -1</P>
+					<P id="416">-144300.070933585 -43690.9523381105 -1</P>
+					<P id="417">-144346.533335929 -43690.9523381105 1</P>
+					<P id="418">-144392.996226554 -43690.9523381105 1</P>
+					<P id="419">-144439.458628898 -43690.9523381105 1</P>
+					<P id="420">-144485.921519523 -43690.9523381105 1</P>
+					<P id="421">-144532.383921866 -43690.9523381105 2</P>
+					<P id="422">-144578.846812491 -43690.9523381105 2</P>
+					<P id="423">-144625.309214835 -43690.9523381105 3</P>
+					<P id="424">-144671.77210546 -43690.9523381105 2</P>
+					<P id="425">-144718.234507804 -43690.9523381105 2</P>
+					<P id="426">-144764.697398429 -43690.9523381105 2</P>
+					<P id="427">-144811.159800773 -43690.9523381105 2</P>
+					<P id="428">-144857.622203116 -43690.9523381105 3</P>
+					<P id="429">-144904.085093741 -43690.9523381105 3</P>
+					<P id="430">-144950.547496085 -43690.9523381105 3</P>
+					<P id="431">-144997.01038671 -43690.9523381105 3</P>
+					<P id="432">-145043.472789054 -43690.9523381105 3</P>
+					<P id="433">-145089.935679679 -43690.9523381105 3</P>
+					<P id="434">-145136.398082023 -43690.9523381105 3</P>
+					<P id="435">-143788.982066398 -43633.4491642824 1</P>
+					<P id="436">-143742.519664054 -43633.4491642824 1</P>
+					<P id="437">-143835.444468741 -43633.4491642824 1</P>
+					<P id="438">-143881.907359366 -43633.4491642824 6</P>
+					<P id="439">-143928.36976171 -43633.4491642824 5</P>
+					<P id="440">-143974.832652335 -43633.4491642824 5.59999990463257</P>
+					<P id="441">-144021.295054679 -43633.4491642824 5.40000009536743</P>
+					<P id="442">-144067.757945304 -43633.4491642824 5</P>
+					<P id="443">-144114.220347648 -43633.4491642824 7</P>
+					<P id="444">-144160.683238273 -43633.4491642824 1</P>
+					<P id="445">-144207.145640616 -43633.4491642824 -2</P>
+					<P id="446">-144253.608531241 -43633.4491642824 -1</P>
+					<P id="447">-144300.070933585 -43633.4491642824 -1</P>
+					<P id="448">-144346.533335929 -43633.4491642824 -2</P>
+					<P id="449">-144392.996226554 -43633.4491642824 0.200000002980232</P>
+					<P id="450">-144439.458628898 -43633.4491642824 0.5</P>
+					<P id="451">-144485.921519523 -43633.4491642824 1</P>
+					<P id="452">-144532.383921866 -43633.4491642824 2</P>
+					<P id="453">-144578.846812491 -43633.4491642824 2</P>
+					<P id="454">-144625.309214835 -43633.4491642824 2</P>
+					<P id="455">-144671.77210546 -43633.4491642824 2</P>
+					<P id="456">-144718.234507804 -43633.4491642824 2</P>
+					<P id="457">-144764.697398429 -43633.4491642824 2</P>
+					<P id="458">-144811.159800773 -43633.4491642824 2</P>
+					<P id="459">-144857.622203116 -43633.4491642824 2</P>
+					<P id="460">-144904.085093741 -43633.4491642824 2</P>
+					<P id="461">-144950.547496085 -43633.4491642824 2</P>
+					<P id="462">-144997.01038671 -43633.4491642824 3</P>
+					<P id="463">-145043.472789054 -43633.4491642824 3</P>
+					<P id="464">-145089.935679679 -43633.4491642824 3</P>
+					<P id="465">-145136.398082023 -43633.4491642824 3</P>
+					<P id="466">-143788.982066398 -43575.9459904543 1</P>
+					<P id="467">-143742.519664054 -43575.9459904543 1</P>
+					<P id="468">-143835.444468741 -43575.9459904543 1</P>
+					<P id="469">-143881.907359366 -43575.9459904543 6</P>
+					<P id="470">-143928.36976171 -43575.9459904543 5</P>
+					<P id="471">-143974.832652335 -43575.9459904543 4.5</P>
+					<P id="472">-144021.295054679 -43575.9459904543 5</P>
+					<P id="473">-144067.757945304 -43575.9459904543 5</P>
+					<P id="474">-144114.220347648 -43575.9459904543 5</P>
+					<P id="475">-144160.683238273 -43575.9459904543 6</P>
+					<P id="476">-144207.145640616 -43575.9459904543 7</P>
+					<P id="477">-144253.608531241 -43575.9459904543 0</P>
+					<P id="478">-144300.070933585 -43575.9459904543 0</P>
+					<P id="479">-144346.533335929 -43575.9459904543 -1</P>
+					<P id="480">-144392.996226554 -43575.9459904543 4</P>
+					<P id="481">-144439.458628898 -43575.9459904543 4</P>
+					<P id="482">-144485.921519523 -43575.9459904543 0</P>
+					<P id="483">-144532.383921866 -43575.9459904543 2</P>
+					<P id="484">-144578.846812491 -43575.9459904543 2</P>
+					<P id="485">-144625.309214835 -43575.9459904543 2</P>
+					<P id="486">-144671.77210546 -43575.9459904543 2</P>
+					<P id="487">-144718.234507804 -43575.9459904543 2</P>
+					<P id="488">-144764.697398429 -43575.9459904543 2</P>
+					<P id="489">-144811.159800773 -43575.9459904543 2</P>
+					<P id="490">-144857.622203116 -43575.9459904543 2</P>
+					<P id="491">-144904.085093741 -43575.9459904543 2</P>
+					<P id="492">-144950.547496085 -43575.9459904543 2</P>
+					<P id="493">-144997.01038671 -43575.9459904543 3</P>
+					<P id="494">-145043.472789054 -43575.9459904543 3</P>
+					<P id="495">-145089.935679679 -43575.9459904543 3</P>
+					<P id="496">-145136.398082023 -43575.9459904543 0</P>
+					<P id="497">-143788.982066398 -43518.4428166261 1</P>
+					<P id="498">-143742.519664054 -43518.4428166261 1</P>
+					<P id="499">-143835.444468741 -43518.4428166261 1</P>
+					<P id="500">-143881.907359366 -43518.4428166261 1</P>
+					<P id="501">-143928.36976171 -43518.4428166261 5</P>
+					<P id="502">-143974.832652335 -43518.4428166261 4</P>
+					<P id="503">-144021.295054679 -43518.4428166261 6</P>
+					<P id="504">-144067.757945304 -43518.4428166261 4</P>
+					<P id="505">-144114.220347648 -43518.4428166261 5</P>
+					<P id="506">-144160.683238273 -43518.4428166261 5</P>
+					<P id="507">-144207.145640616 -43518.4428166261 5</P>
+					<P id="508">-144253.608531241 -43518.4428166261 2</P>
+					<P id="509">-144300.070933585 -43518.4428166261 2</P>
+					<P id="510">-144346.533335929 -43518.4428166261 4</P>
+					<P id="511">-144392.996226554 -43518.4428166261 4</P>
+					<P id="512">-144439.458628898 -43518.4428166261 4</P>
+					<P id="513">-144485.921519523 -43518.4428166261 4</P>
+					<P id="514">-144532.383921866 -43518.4428166261 0</P>
+					<P id="515">-144578.846812491 -43518.4428166261 1</P>
+					<P id="516">-144625.309214835 -43518.4428166261 1</P>
+					<P id="517">-144671.77210546 -43518.4428166261 1</P>
+					<P id="518">-144718.234507804 -43518.4428166261 1</P>
+					<P id="519">-144764.697398429 -43518.4428166261 1</P>
+					<P id="520">-144811.159800773 -43518.4428166261 1</P>
+					<P id="521">-144857.622203116 -43518.4428166261 0</P>
+					<P id="522">-144904.085093741 -43518.4428166261 2</P>
+					<P id="523">-144950.547496085 -43518.4428166261 2</P>
+					<P id="524">-144997.01038671 -43518.4428166261 0</P>
+					<P id="525">-145043.472789054 -43518.4428166261 0</P>
+					<P id="526">-145089.935679679 -43518.4428166261 4</P>
+					<P id="527">-145136.398082023 -43518.4428166261 4</P>
+					<P id="528">-143788.982066398 -43460.939642798 1</P>
+					<P id="529">-143742.519664054 -43460.939642798 1</P>
+					<P id="530">-143835.444468741 -43460.939642798 1</P>
+					<P id="531">-143881.907359366 -43460.939642798 1</P>
+					<P id="532">-143928.36976171 -43460.939642798 1</P>
+					<P id="533">-143974.832652335 -43460.939642798 5</P>
+					<P id="534">-144021.295054679 -43460.939642798 5</P>
+					<P id="535">-144067.757945304 -43460.939642798 1</P>
+					<P id="536">-144114.220347648 -43460.939642798 4</P>
+					<P id="537">-144160.683238273 -43460.939642798 4</P>
+					<P id="538">-144207.145640616 -43460.939642798 4</P>
+					<P id="539">-144253.608531241 -43460.939642798 1</P>
+					<P id="540">-144300.070933585 -43460.939642798 2</P>
+					<P id="541">-144346.533335929 -43460.939642798 2</P>
+					<P id="542">-144392.996226554 -43460.939642798 2</P>
+					<P id="543">-144439.458628898 -43460.939642798 4</P>
+					<P id="544">-144485.921519523 -43460.939642798 4</P>
+					<P id="545">-144532.383921866 -43460.939642798 4</P>
+					<P id="546">-144578.846812491 -43460.939642798 4</P>
+					<P id="547">-144625.309214835 -43460.939642798 4</P>
+					<P id="548">-144671.77210546 -43460.939642798 4</P>
+					<P id="549">-144718.234507804 -43460.939642798 4</P>
+					<P id="550">-144764.697398429 -43460.939642798 4</P>
+					<P id="551">-144811.159800773 -43460.939642798 4</P>
+					<P id="552">-144857.622203116 -43460.939642798 4</P>
+					<P id="553">-144904.085093741 -43460.939642798 0</P>
+					<P id="554">-144950.547496085 -43460.939642798 0</P>
+					<P id="555">-144997.01038671 -43460.939642798 4</P>
+					<P id="556">-145043.472789054 -43460.939642798 4</P>
+					<P id="557">-145089.935679679 -43460.939642798 4</P>
+					<P id="558">-145136.398082023 -43460.939642798 3</P>
+					<P id="559">-143788.982066398 -43403.4364689699 1</P>
+					<P id="560">-143742.519664054 -43403.4364689699 1</P>
+					<P id="561">-143835.444468741 -43403.4364689699 1</P>
+					<P id="562">-143881.907359366 -43403.4364689699 1</P>
+					<P id="563">-143928.36976171 -43403.4364689699 1</P>
+					<P id="564">-143974.832652335 -43403.4364689699 1</P>
+					<P id="565">-144021.295054679 -43403.4364689699 1</P>
+					<P id="566">-144067.757945304 -43403.4364689699 1</P>
+					<P id="567">-144114.220347648 -43403.4364689699 1</P>
+					<P id="568">-144160.683238273 -43403.4364689699 1</P>
+					<P id="569">-144207.145640616 -43403.4364689699 1</P>
+					<P id="570">-144253.608531241 -43403.4364689699 1</P>
+					<P id="571">-144300.070933585 -43403.4364689699 1</P>
+					<P id="572">-144346.533335929 -43403.4364689699 1</P>
+					<P id="573">-144392.996226554 -43403.4364689699 2</P>
+					<P id="574">-144439.458628898 -43403.4364689699 2</P>
+					<P id="575">-144485.921519523 -43403.4364689699 4</P>
+					<P id="576">-144532.383921866 -43403.4364689699 4</P>
+					<P id="577">-144578.846812491 -43403.4364689699 4</P>
+					<P id="578">-144625.309214835 -43403.4364689699 4</P>
+					<P id="579">-144671.77210546 -43403.4364689699 4</P>
+					<P id="580">-144718.234507804 -43403.4364689699 4</P>
+					<P id="581">-144764.697398429 -43403.4364689699 4</P>
+					<P id="582">-144811.159800773 -43403.4364689699 4</P>
+					<P id="583">-144857.622203116 -43403.4364689699 4</P>
+					<P id="584">-144904.085093741 -43403.4364689699 4</P>
+					<P id="585">-144950.547496085 -43403.4364689699 4</P>
+					<P id="586">-144997.01038671 -43403.4364689699 4</P>
+					<P id="587">-145043.472789054 -43403.4364689699 3</P>
+					<P id="588">-145089.935679679 -43403.4364689699 3</P>
+					<P id="589">-145136.398082023 -43403.4364689699 3</P>
+				</Pnts>
+				<Faces>
+					<F>1 2 3</F>
+					<F>1 3 4</F>
+					<F>2 5 6</F>
+					<F>2 6 3</F>
+					<F>5 7 8</F>
+					<F>5 8 6</F>
+					<F>7 9 10</F>
+					<F>7 10 8</F>
+					<F>9 11 12</F>
+					<F>9 12 10</F>
+					<F>11 13 14</F>
+					<F>11 14 12</F>
+					<F>13 15 16</F>
+					<F>13 16 14</F>
+					<F>15 17 18</F>
+					<F>15 18 16</F>
+					<F>17 19 20</F>
+					<F>17 20 18</F>
+					<F>19 21 22</F>
+					<F>19 22 20</F>
+					<F>21 23 24</F>
+					<F>21 24 22</F>
+					<F>23 25 26</F>
+					<F>23 26 24</F>
+					<F>25 27 28</F>
+					<F>25 28 26</F>
+					<F>27 29 30</F>
+					<F>27 30 28</F>
+					<F>29 31 32</F>
+					<F>29 32 30</F>
+					<F>31 33 34</F>
+					<F>31 34 32</F>
+					<F>33 35 36</F>
+					<F>33 36 34</F>
+					<F>35 37 38</F>
+					<F>35 38 36</F>
+					<F>37 39 40</F>
+					<F>37 40 38</F>
+					<F>39 41 42</F>
+					<F>39 42 40</F>
+					<F>41 43 44</F>
+					<F>41 44 42</F>
+					<F>43 45 46</F>
+					<F>43 46 44</F>
+					<F>45 47 48</F>
+					<F>45 48 46</F>
+					<F>47 49 50</F>
+					<F>47 50 48</F>
+					<F>49 51 52</F>
+					<F>49 52 50</F>
+					<F>51 53 54</F>
+					<F>51 54 52</F>
+					<F>53 55 56</F>
+					<F>53 56 54</F>
+					<F>55 57 58</F>
+					<F>55 58 56</F>
+					<F>57 59 60</F>
+					<F>57 60 58</F>
+					<F>59 61 62</F>
+					<F>59 62 60</F>
+					<F>4 3 63</F>
+					<F>4 63 64</F>
+					<F>3 6 65</F>
+					<F>3 65 63</F>
+					<F>6 8 66</F>
+					<F>6 66 65</F>
+					<F>8 10 67</F>
+					<F>8 67 66</F>
+					<F>10 12 68</F>
+					<F>10 68 67</F>
+					<F>12 14 69</F>
+					<F>12 69 68</F>
+					<F>14 16 70</F>
+					<F>14 70 69</F>
+					<F>16 18 71</F>
+					<F>16 71 70</F>
+					<F>18 20 72</F>
+					<F>18 72 71</F>
+					<F>20 22 73</F>
+					<F>20 73 72</F>
+					<F>22 24 74</F>
+					<F>22 74 73</F>
+					<F>24 26 75</F>
+					<F>24 75 74</F>
+					<F>26 28 76</F>
+					<F>26 76 75</F>
+					<F>28 30 77</F>
+					<F>28 77 76</F>
+					<F>30 32 78</F>
+					<F>30 78 77</F>
+					<F>32 34 79</F>
+					<F>32 79 78</F>
+					<F>34 36 80</F>
+					<F>34 80 79</F>
+					<F>36 38 81</F>
+					<F>36 81 80</F>
+					<F>38 40 82</F>
+					<F>38 82 81</F>
+					<F>40 42 83</F>
+					<F>40 83 82</F>
+					<F>42 44 84</F>
+					<F>42 84 83</F>
+					<F>44 46 85</F>
+					<F>44 85 84</F>
+					<F>46 48 86</F>
+					<F>46 86 85</F>
+					<F>48 50 87</F>
+					<F>48 87 86</F>
+					<F>50 52 88</F>
+					<F>50 88 87</F>
+					<F>52 54 89</F>
+					<F>52 89 88</F>
+					<F>54 56 90</F>
+					<F>54 90 89</F>
+					<F>56 58 91</F>
+					<F>56 91 90</F>
+					<F>58 60 92</F>
+					<F>58 92 91</F>
+					<F>60 62 93</F>
+					<F>60 93 92</F>
+					<F>64 63 94</F>
+					<F>64 94 95</F>
+					<F>63 65 96</F>
+					<F>63 96 94</F>
+					<F>65 66 97</F>
+					<F>65 97 96</F>
+					<F>66 67 98</F>
+					<F>66 98 97</F>
+					<F>67 68 99</F>
+					<F>67 99 98</F>
+					<F>68 69 100</F>
+					<F>68 100 99</F>
+					<F>69 70 101</F>
+					<F>69 101 100</F>
+					<F>70 71 102</F>
+					<F>70 102 101</F>
+					<F>71 72 103</F>
+					<F>71 103 102</F>
+					<F>72 73 104</F>
+					<F>72 104 103</F>
+					<F>73 74 105</F>
+					<F>73 105 104</F>
+					<F>74 75 106</F>
+					<F>74 106 105</F>
+					<F>75 76 107</F>
+					<F>75 107 106</F>
+					<F>76 77 108</F>
+					<F>76 108 107</F>
+					<F>77 78 109</F>
+					<F>77 109 108</F>
+					<F>78 79 110</F>
+					<F>78 110 109</F>
+					<F>79 80 111</F>
+					<F>79 111 110</F>
+					<F>80 81 112</F>
+					<F>80 112 111</F>
+					<F>81 82 113</F>
+					<F>81 113 112</F>
+					<F>82 83 114</F>
+					<F>82 114 113</F>
+					<F>83 84 115</F>
+					<F>83 115 114</F>
+					<F>84 85 116</F>
+					<F>84 116 115</F>
+					<F>85 86 117</F>
+					<F>85 117 116</F>
+					<F>86 87 118</F>
+					<F>86 118 117</F>
+					<F>87 88 119</F>
+					<F>87 119 118</F>
+					<F>88 89 120</F>
+					<F>88 120 119</F>
+					<F>89 90 121</F>
+					<F>89 121 120</F>
+					<F>90 91 122</F>
+					<F>90 122 121</F>
+					<F>91 92 123</F>
+					<F>91 123 122</F>
+					<F>92 93 124</F>
+					<F>92 124 123</F>
+					<F>95 94 125</F>
+					<F>95 125 126</F>
+					<F>94 96 127</F>
+					<F>94 127 125</F>
+					<F>96 97 128</F>
+					<F>96 128 127</F>
+					<F>97 98 129</F>
+					<F>97 129 128</F>
+					<F>98 99 130</F>
+					<F>98 130 129</F>
+					<F>99 100 131</F>
+					<F>99 131 130</F>
+					<F>100 101 132</F>
+					<F>100 132 131</F>
+					<F>101 102 133</F>
+					<F>101 133 132</F>
+					<F>102 103 134</F>
+					<F>102 134 133</F>
+					<F>103 104 135</F>
+					<F>103 135 134</F>
+					<F>104 105 136</F>
+					<F>104 136 135</F>
+					<F>105 106 137</F>
+					<F>105 137 136</F>
+					<F>106 107 138</F>
+					<F>106 138 137</F>
+					<F>107 108 139</F>
+					<F>107 139 138</F>
+					<F>108 109 140</F>
+					<F>108 140 139</F>
+					<F>109 110 141</F>
+					<F>109 141 140</F>
+					<F>110 111 142</F>
+					<F>110 142 141</F>
+					<F>111 112 143</F>
+					<F>111 143 142</F>
+					<F>112 113 144</F>
+					<F>112 144 143</F>
+					<F>113 114 145</F>
+					<F>113 145 144</F>
+					<F>114 115 146</F>
+					<F>114 146 145</F>
+					<F>115 116 147</F>
+					<F>115 147 146</F>
+					<F>116 117 148</F>
+					<F>116 148 147</F>
+					<F>117 118 149</F>
+					<F>117 149 148</F>
+					<F>118 119 150</F>
+					<F>118 150 149</F>
+					<F>119 120 151</F>
+					<F>119 151 150</F>
+					<F>120 121 152</F>
+					<F>120 152 151</F>
+					<F>121 122 153</F>
+					<F>121 153 152</F>
+					<F>122 123 154</F>
+					<F>122 154 153</F>
+					<F>123 124 155</F>
+					<F>123 155 154</F>
+					<F>126 125 156</F>
+					<F>126 156 157</F>
+					<F>125 127 158</F>
+					<F>125 158 156</F>
+					<F>127 128 159</F>
+					<F>127 159 158</F>
+					<F>128 129 160</F>
+					<F>128 160 159</F>
+					<F>129 130 161</F>
+					<F>129 161 160</F>
+					<F>130 131 162</F>
+					<F>130 162 161</F>
+					<F>131 132 163</F>
+					<F>131 163 162</F>
+					<F>132 133 164</F>
+					<F>132 164 163</F>
+					<F>133 134 165</F>
+					<F>133 165 164</F>
+					<F>134 135 166</F>
+					<F>134 166 165</F>
+					<F>135 136 167</F>
+					<F>135 167 166</F>
+					<F>136 137 168</F>
+					<F>136 168 167</F>
+					<F>137 138 169</F>
+					<F>137 169 168</F>
+					<F>138 139 170</F>
+					<F>138 170 169</F>
+					<F>139 140 171</F>
+					<F>139 171 170</F>
+					<F>140 141 172</F>
+					<F>140 172 171</F>
+					<F>141 142 173</F>
+					<F>141 173 172</F>
+					<F>142 143 174</F>
+					<F>142 174 173</F>
+					<F>143 144 175</F>
+					<F>143 175 174</F>
+					<F>144 145 176</F>
+					<F>144 176 175</F>
+					<F>145 146 177</F>
+					<F>145 177 176</F>
+					<F>146 147 178</F>
+					<F>146 178 177</F>
+					<F>147 148 179</F>
+					<F>147 179 178</F>
+					<F>148 149 180</F>
+					<F>148 180 179</F>
+					<F>149 150 181</F>
+					<F>149 181 180</F>
+					<F>150 151 182</F>
+					<F>150 182 181</F>
+					<F>151 152 183</F>
+					<F>151 183 182</F>
+					<F>152 153 184</F>
+					<F>152 184 183</F>
+					<F>153 154 185</F>
+					<F>153 185 184</F>
+					<F>154 155 186</F>
+					<F>154 186 185</F>
+					<F>157 156 187</F>
+					<F>157 187 188</F>
+					<F>156 158 189</F>
+					<F>156 189 187</F>
+					<F>158 159 190</F>
+					<F>158 190 189</F>
+					<F>159 160 191</F>
+					<F>159 191 190</F>
+					<F>160 161 192</F>
+					<F>160 192 191</F>
+					<F>161 162 193</F>
+					<F>161 193 192</F>
+					<F>162 163 194</F>
+					<F>162 194 193</F>
+					<F>163 164 195</F>
+					<F>163 195 194</F>
+					<F>164 165 196</F>
+					<F>164 196 195</F>
+					<F>165 166 197</F>
+					<F>165 197 196</F>
+					<F>166 167 198</F>
+					<F>166 198 197</F>
+					<F>167 168 199</F>
+					<F>167 199 198</F>
+					<F>168 169 200</F>
+					<F>168 200 199</F>
+					<F>169 170 201</F>
+					<F>169 201 200</F>
+					<F>170 171 202</F>
+					<F>170 202 201</F>
+					<F>171 172 203</F>
+					<F>171 203 202</F>
+					<F>172 173 204</F>
+					<F>172 204 203</F>
+					<F>173 174 205</F>
+					<F>173 205 204</F>
+					<F>174 175 206</F>
+					<F>174 206 205</F>
+					<F>175 176 207</F>
+					<F>175 207 206</F>
+					<F>176 177 208</F>
+					<F>176 208 207</F>
+					<F>177 178 209</F>
+					<F>177 209 208</F>
+					<F>178 179 210</F>
+					<F>178 210 209</F>
+					<F>179 180 211</F>
+					<F>179 211 210</F>
+					<F>180 181 212</F>
+					<F>180 212 211</F>
+					<F>181 182 213</F>
+					<F>181 213 212</F>
+					<F>182 183 214</F>
+					<F>182 214 213</F>
+					<F>183 184 215</F>
+					<F>183 215 214</F>
+					<F>184 185 216</F>
+					<F>184 216 215</F>
+					<F>185 186 217</F>
+					<F>185 217 216</F>
+					<F>188 187 218</F>
+					<F>188 218 219</F>
+					<F>187 189 220</F>
+					<F>187 220 218</F>
+					<F>189 190 221</F>
+					<F>189 221 220</F>
+					<F>190 191 222</F>
+					<F>190 222 221</F>
+					<F>191 192 223</F>
+					<F>191 223 222</F>
+					<F>192 193 224</F>
+					<F>192 224 223</F>
+					<F>193 194 225</F>
+					<F>193 225 224</F>
+					<F>194 195 226</F>
+					<F>194 226 225</F>
+					<F>195 196 227</F>
+					<F>195 227 226</F>
+					<F>196 197 228</F>
+					<F>196 228 227</F>
+					<F>197 198 229</F>
+					<F>197 229 228</F>
+					<F>198 199 230</F>
+					<F>198 230 229</F>
+					<F>199 200 231</F>
+					<F>199 231 230</F>
+					<F>200 201 232</F>
+					<F>200 232 231</F>
+					<F>201 202 233</F>
+					<F>201 233 232</F>
+					<F>202 203 234</F>
+					<F>202 234 233</F>
+					<F>203 204 235</F>
+					<F>203 235 234</F>
+					<F>204 205 236</F>
+					<F>204 236 235</F>
+					<F>205 206 237</F>
+					<F>205 237 236</F>
+					<F>206 207 238</F>
+					<F>206 238 237</F>
+					<F>207 208 239</F>
+					<F>207 239 238</F>
+					<F>208 209 240</F>
+					<F>208 240 239</F>
+					<F>209 210 241</F>
+					<F>209 241 240</F>
+					<F>210 211 242</F>
+					<F>210 242 241</F>
+					<F>211 212 243</F>
+					<F>211 243 242</F>
+					<F>212 213 244</F>
+					<F>212 244 243</F>
+					<F>213 214 245</F>
+					<F>213 245 244</F>
+					<F>214 215 246</F>
+					<F>214 246 245</F>
+					<F>215 216 247</F>
+					<F>215 247 246</F>
+					<F>216 217 248</F>
+					<F>216 248 247</F>
+					<F>219 218 249</F>
+					<F>219 249 250</F>
+					<F>218 220 251</F>
+					<F>218 251 249</F>
+					<F>220 221 252</F>
+					<F>220 252 251</F>
+					<F>221 222 253</F>
+					<F>221 253 252</F>
+					<F>222 223 254</F>
+					<F>222 254 253</F>
+					<F>223 224 255</F>
+					<F>223 255 254</F>
+					<F>224 225 256</F>
+					<F>224 256 255</F>
+					<F>225 226 257</F>
+					<F>225 257 256</F>
+					<F>226 227 258</F>
+					<F>226 258 257</F>
+					<F>227 228 259</F>
+					<F>227 259 258</F>
+					<F>228 229 260</F>
+					<F>228 260 259</F>
+					<F>229 230 261</F>
+					<F>229 261 260</F>
+					<F>230 231 262</F>
+					<F>230 262 261</F>
+					<F>231 232 263</F>
+					<F>231 263 262</F>
+					<F>232 233 264</F>
+					<F>232 264 263</F>
+					<F>233 234 265</F>
+					<F>233 265 264</F>
+					<F>234 235 266</F>
+					<F>234 266 265</F>
+					<F>235 236 267</F>
+					<F>235 267 266</F>
+					<F>236 237 268</F>
+					<F>236 268 267</F>
+					<F>237 238 269</F>
+					<F>237 269 268</F>
+					<F>238 239 270</F>
+					<F>238 270 269</F>
+					<F>239 240 271</F>
+					<F>239 271 270</F>
+					<F>240 241 272</F>
+					<F>240 272 271</F>
+					<F>241 242 273</F>
+					<F>241 273 272</F>
+					<F>242 243 274</F>
+					<F>242 274 273</F>
+					<F>243 244 275</F>
+					<F>243 275 274</F>
+					<F>244 245 276</F>
+					<F>244 276 275</F>
+					<F>245 246 277</F>
+					<F>245 277 276</F>
+					<F>246 247 278</F>
+					<F>246 278 277</F>
+					<F>247 248 279</F>
+					<F>247 279 278</F>
+					<F>250 249 280</F>
+					<F>250 280 281</F>
+					<F>249 251 282</F>
+					<F>249 282 280</F>
+					<F>251 252 283</F>
+					<F>251 283 282</F>
+					<F>252 253 284</F>
+					<F>252 284 283</F>
+					<F>253 254 285</F>
+					<F>253 285 284</F>
+					<F>254 255 286</F>
+					<F>254 286 285</F>
+					<F>255 256 287</F>
+					<F>255 287 286</F>
+					<F>256 257 288</F>
+					<F>256 288 287</F>
+					<F>257 258 289</F>
+					<F>257 289 288</F>
+					<F>258 259 290</F>
+					<F>258 290 289</F>
+					<F>259 260 291</F>
+					<F>259 291 290</F>
+					<F>260 261 292</F>
+					<F>260 292 291</F>
+					<F>261 262 293</F>
+					<F>261 293 292</F>
+					<F>262 263 294</F>
+					<F>262 294 293</F>
+					<F>263 264 295</F>
+					<F>263 295 294</F>
+					<F>264 265 296</F>
+					<F>264 296 295</F>
+					<F>265 266 297</F>
+					<F>265 297 296</F>
+					<F>266 267 298</F>
+					<F>266 298 297</F>
+					<F>267 268 299</F>
+					<F>267 299 298</F>
+					<F>268 269 300</F>
+					<F>268 300 299</F>
+					<F>269 270 301</F>
+					<F>269 301 300</F>
+					<F>270 271 302</F>
+					<F>270 302 301</F>
+					<F>271 272 303</F>
+					<F>271 303 302</F>
+					<F>272 273 304</F>
+					<F>272 304 303</F>
+					<F>273 274 305</F>
+					<F>273 305 304</F>
+					<F>274 275 306</F>
+					<F>274 306 305</F>
+					<F>275 276 307</F>
+					<F>275 307 306</F>
+					<F>276 277 308</F>
+					<F>276 308 307</F>
+					<F>277 278 309</F>
+					<F>277 309 308</F>
+					<F>278 279 310</F>
+					<F>278 310 309</F>
+					<F>281 280 311</F>
+					<F>281 311 312</F>
+					<F>280 282 313</F>
+					<F>280 313 311</F>
+					<F>282 283 314</F>
+					<F>282 314 313</F>
+					<F>283 284 315</F>
+					<F>283 315 314</F>
+					<F>284 285 316</F>
+					<F>284 316 315</F>
+					<F>285 286 317</F>
+					<F>285 317 316</F>
+					<F>286 287 318</F>
+					<F>286 318 317</F>
+					<F>287 288 319</F>
+					<F>287 319 318</F>
+					<F>288 289 320</F>
+					<F>288 320 319</F>
+					<F>289 290 321</F>
+					<F>289 321 320</F>
+					<F>290 291 322</F>
+					<F>290 322 321</F>
+					<F>291 292 323</F>
+					<F>291 323 322</F>
+					<F>292 293 324</F>
+					<F>292 324 323</F>
+					<F>293 294 325</F>
+					<F>293 325 324</F>
+					<F>294 295 326</F>
+					<F>294 326 325</F>
+					<F>295 296 327</F>
+					<F>295 327 326</F>
+					<F>296 297 328</F>
+					<F>296 328 327</F>
+					<F>297 298 329</F>
+					<F>297 329 328</F>
+					<F>298 299 330</F>
+					<F>298 330 329</F>
+					<F>299 300 331</F>
+					<F>299 331 330</F>
+					<F>300 301 332</F>
+					<F>300 332 331</F>
+					<F>301 302 333</F>
+					<F>301 333 332</F>
+					<F>302 303 334</F>
+					<F>302 334 333</F>
+					<F>303 304 335</F>
+					<F>303 335 334</F>
+					<F>304 305 336</F>
+					<F>304 336 335</F>
+					<F>305 306 337</F>
+					<F>305 337 336</F>
+					<F>306 307 338</F>
+					<F>306 338 337</F>
+					<F>307 308 339</F>
+					<F>307 339 338</F>
+					<F>308 309 340</F>
+					<F>308 340 339</F>
+					<F>309 310 341</F>
+					<F>309 341 340</F>
+					<F>312 311 342</F>
+					<F>312 342 343</F>
+					<F>311 313 344</F>
+					<F>311 344 342</F>
+					<F>313 314 345</F>
+					<F>313 345 344</F>
+					<F>314 315 346</F>
+					<F>314 346 345</F>
+					<F>315 316 347</F>
+					<F>315 347 346</F>
+					<F>316 317 348</F>
+					<F>316 348 347</F>
+					<F>317 318 349</F>
+					<F>317 349 348</F>
+					<F>318 319 350</F>
+					<F>318 350 349</F>
+					<F>319 320 351</F>
+					<F>319 351 350</F>
+					<F>320 321 352</F>
+					<F>320 352 351</F>
+					<F>321 322 353</F>
+					<F>321 353 352</F>
+					<F>322 323 354</F>
+					<F>322 354 353</F>
+					<F>323 324 355</F>
+					<F>323 355 354</F>
+					<F>324 325 356</F>
+					<F>324 356 355</F>
+					<F>325 326 357</F>
+					<F>325 357 356</F>
+					<F>326 327 358</F>
+					<F>326 358 357</F>
+					<F>327 328 359</F>
+					<F>327 359 358</F>
+					<F>328 329 360</F>
+					<F>328 360 359</F>
+					<F>329 330 361</F>
+					<F>329 361 360</F>
+					<F>330 331 362</F>
+					<F>330 362 361</F>
+					<F>331 332 363</F>
+					<F>331 363 362</F>
+					<F>332 333 364</F>
+					<F>332 364 363</F>
+					<F>333 334 365</F>
+					<F>333 365 364</F>
+					<F>334 335 366</F>
+					<F>334 366 365</F>
+					<F>335 336 367</F>
+					<F>335 367 366</F>
+					<F>336 337 368</F>
+					<F>336 368 367</F>
+					<F>337 338 369</F>
+					<F>337 369 368</F>
+					<F>338 339 370</F>
+					<F>338 370 369</F>
+					<F>339 340 371</F>
+					<F>339 371 370</F>
+					<F>340 341 372</F>
+					<F>340 372 371</F>
+					<F>343 342 373</F>
+					<F>343 373 374</F>
+					<F>342 344 375</F>
+					<F>342 375 373</F>
+					<F>344 345 376</F>
+					<F>344 376 375</F>
+					<F>345 346 377</F>
+					<F>345 377 376</F>
+					<F>346 347 378</F>
+					<F>346 378 377</F>
+					<F>347 348 379</F>
+					<F>347 379 378</F>
+					<F>348 349 380</F>
+					<F>348 380 379</F>
+					<F>349 350 381</F>
+					<F>349 381 380</F>
+					<F>350 351 382</F>
+					<F>350 382 381</F>
+					<F>351 352 383</F>
+					<F>351 383 382</F>
+					<F>352 353 384</F>
+					<F>352 384 383</F>
+					<F>353 354 385</F>
+					<F>353 385 384</F>
+					<F>354 355 386</F>
+					<F>354 386 385</F>
+					<F>355 356 387</F>
+					<F>355 387 386</F>
+					<F>356 357 388</F>
+					<F>356 388 387</F>
+					<F>357 358 389</F>
+					<F>357 389 388</F>
+					<F>358 359 390</F>
+					<F>358 390 389</F>
+					<F>359 360 391</F>
+					<F>359 391 390</F>
+					<F>360 361 392</F>
+					<F>360 392 391</F>
+					<F>361 362 393</F>
+					<F>361 393 392</F>
+					<F>362 363 394</F>
+					<F>362 394 393</F>
+					<F>363 364 395</F>
+					<F>363 395 394</F>
+					<F>364 365 396</F>
+					<F>364 396 395</F>
+					<F>365 366 397</F>
+					<F>365 397 396</F>
+					<F>366 367 398</F>
+					<F>366 398 397</F>
+					<F>367 368 399</F>
+					<F>367 399 398</F>
+					<F>368 369 400</F>
+					<F>368 400 399</F>
+					<F>369 370 401</F>
+					<F>369 401 400</F>
+					<F>370 371 402</F>
+					<F>370 402 401</F>
+					<F>371 372 403</F>
+					<F>371 403 402</F>
+					<F>374 373 404</F>
+					<F>374 404 405</F>
+					<F>373 375 406</F>
+					<F>373 406 404</F>
+					<F>375 376 407</F>
+					<F>375 407 406</F>
+					<F>376 377 408</F>
+					<F>376 408 407</F>
+					<F>377 378 409</F>
+					<F>377 409 408</F>
+					<F>378 379 410</F>
+					<F>378 410 409</F>
+					<F>379 380 411</F>
+					<F>379 411 410</F>
+					<F>380 381 412</F>
+					<F>380 412 411</F>
+					<F>381 382 413</F>
+					<F>381 413 412</F>
+					<F>382 383 414</F>
+					<F>382 414 413</F>
+					<F>383 384 415</F>
+					<F>383 415 414</F>
+					<F>384 385 416</F>
+					<F>384 416 415</F>
+					<F>385 386 417</F>
+					<F>385 417 416</F>
+					<F>386 387 418</F>
+					<F>386 418 417</F>
+					<F>387 388 419</F>
+					<F>387 419 418</F>
+					<F>388 389 420</F>
+					<F>388 420 419</F>
+					<F>389 390 421</F>
+					<F>389 421 420</F>
+					<F>390 391 422</F>
+					<F>390 422 421</F>
+					<F>391 392 423</F>
+					<F>391 423 422</F>
+					<F>392 393 424</F>
+					<F>392 424 423</F>
+					<F>393 394 425</F>
+					<F>393 425 424</F>
+					<F>394 395 426</F>
+					<F>394 426 425</F>
+					<F>395 396 427</F>
+					<F>395 427 426</F>
+					<F>396 397 428</F>
+					<F>396 428 427</F>
+					<F>397 398 429</F>
+					<F>397 429 428</F>
+					<F>398 399 430</F>
+					<F>398 430 429</F>
+					<F>399 400 431</F>
+					<F>399 431 430</F>
+					<F>400 401 432</F>
+					<F>400 432 431</F>
+					<F>401 402 433</F>
+					<F>401 433 432</F>
+					<F>402 403 434</F>
+					<F>402 434 433</F>
+					<F>405 404 435</F>
+					<F>405 435 436</F>
+					<F>404 406 437</F>
+					<F>404 437 435</F>
+					<F>406 407 438</F>
+					<F>406 438 437</F>
+					<F>407 408 439</F>
+					<F>407 439 438</F>
+					<F>408 409 440</F>
+					<F>408 440 439</F>
+					<F>409 410 441</F>
+					<F>409 441 440</F>
+					<F>410 411 442</F>
+					<F>410 442 441</F>
+					<F>411 412 443</F>
+					<F>411 443 442</F>
+					<F>412 413 444</F>
+					<F>412 444 443</F>
+					<F>413 414 445</F>
+					<F>413 445 444</F>
+					<F>414 415 446</F>
+					<F>414 446 445</F>
+					<F>415 416 447</F>
+					<F>415 447 446</F>
+					<F>416 417 448</F>
+					<F>416 448 447</F>
+					<F>417 418 449</F>
+					<F>417 449 448</F>
+					<F>418 419 450</F>
+					<F>418 450 449</F>
+					<F>419 420 451</F>
+					<F>419 451 450</F>
+					<F>420 421 452</F>
+					<F>420 452 451</F>
+					<F>421 422 453</F>
+					<F>421 453 452</F>
+					<F>422 423 454</F>
+					<F>422 454 453</F>
+					<F>423 424 455</F>
+					<F>423 455 454</F>
+					<F>424 425 456</F>
+					<F>424 456 455</F>
+					<F>425 426 457</F>
+					<F>425 457 456</F>
+					<F>426 427 458</F>
+					<F>426 458 457</F>
+					<F>427 428 459</F>
+					<F>427 459 458</F>
+					<F>428 429 460</F>
+					<F>428 460 459</F>
+					<F>429 430 461</F>
+					<F>429 461 460</F>
+					<F>430 431 462</F>
+					<F>430 462 461</F>
+					<F>431 432 463</F>
+					<F>431 463 462</F>
+					<F>432 433 464</F>
+					<F>432 464 463</F>
+					<F>433 434 465</F>
+					<F>433 465 464</F>
+					<F>436 435 466</F>
+					<F>436 466 467</F>
+					<F>435 437 468</F>
+					<F>435 468 466</F>
+					<F>437 438 469</F>
+					<F>437 469 468</F>
+					<F>438 439 470</F>
+					<F>438 470 469</F>
+					<F>439 440 471</F>
+					<F>439 471 470</F>
+					<F>440 441 472</F>
+					<F>440 472 471</F>
+					<F>441 442 473</F>
+					<F>441 473 472</F>
+					<F>442 443 474</F>
+					<F>442 474 473</F>
+					<F>443 444 475</F>
+					<F>443 475 474</F>
+					<F>444 445 476</F>
+					<F>444 476 475</F>
+					<F>445 446 477</F>
+					<F>445 477 476</F>
+					<F>446 447 478</F>
+					<F>446 478 477</F>
+					<F>447 448 479</F>
+					<F>447 479 478</F>
+					<F>448 449 480</F>
+					<F>448 480 479</F>
+					<F>449 450 481</F>
+					<F>449 481 480</F>
+					<F>450 451 482</F>
+					<F>450 482 481</F>
+					<F>451 452 483</F>
+					<F>451 483 482</F>
+					<F>452 453 484</F>
+					<F>452 484 483</F>
+					<F>453 454 485</F>
+					<F>453 485 484</F>
+					<F>454 455 486</F>
+					<F>454 486 485</F>
+					<F>455 456 487</F>
+					<F>455 487 486</F>
+					<F>456 457 488</F>
+					<F>456 488 487</F>
+					<F>457 458 489</F>
+					<F>457 489 488</F>
+					<F>458 459 490</F>
+					<F>458 490 489</F>
+					<F>459 460 491</F>
+					<F>459 491 490</F>
+					<F>460 461 492</F>
+					<F>460 492 491</F>
+					<F>461 462 493</F>
+					<F>461 493 492</F>
+					<F>462 463 494</F>
+					<F>462 494 493</F>
+					<F>463 464 495</F>
+					<F>463 495 494</F>
+					<F>464 465 496</F>
+					<F>464 496 495</F>
+					<F>467 466 497</F>
+					<F>467 497 498</F>
+					<F>466 468 499</F>
+					<F>466 499 497</F>
+					<F>468 469 500</F>
+					<F>468 500 499</F>
+					<F>469 470 501</F>
+					<F>469 501 500</F>
+					<F>470 471 502</F>
+					<F>470 502 501</F>
+					<F>471 472 503</F>
+					<F>471 503 502</F>
+					<F>472 473 504</F>
+					<F>472 504 503</F>
+					<F>473 474 505</F>
+					<F>473 505 504</F>
+					<F>474 475 506</F>
+					<F>474 506 505</F>
+					<F>475 476 507</F>
+					<F>475 507 506</F>
+					<F>476 477 508</F>
+					<F>476 508 507</F>
+					<F>477 478 509</F>
+					<F>477 509 508</F>
+					<F>478 479 510</F>
+					<F>478 510 509</F>
+					<F>479 480 511</F>
+					<F>479 511 510</F>
+					<F>480 481 512</F>
+					<F>480 512 511</F>
+					<F>481 482 513</F>
+					<F>481 513 512</F>
+					<F>482 483 514</F>
+					<F>482 514 513</F>
+					<F>483 484 515</F>
+					<F>483 515 514</F>
+					<F>484 485 516</F>
+					<F>484 516 515</F>
+					<F>485 486 517</F>
+					<F>485 517 516</F>
+					<F>486 487 518</F>
+					<F>486 518 517</F>
+					<F>487 488 519</F>
+					<F>487 519 518</F>
+					<F>488 489 520</F>
+					<F>488 520 519</F>
+					<F>489 490 521</F>
+					<F>489 521 520</F>
+					<F>490 491 522</F>
+					<F>490 522 521</F>
+					<F>491 492 523</F>
+					<F>491 523 522</F>
+					<F>492 493 524</F>
+					<F>492 524 523</F>
+					<F>493 494 525</F>
+					<F>493 525 524</F>
+					<F>494 495 526</F>
+					<F>494 526 525</F>
+					<F>495 496 527</F>
+					<F>495 527 526</F>
+					<F>498 497 528</F>
+					<F>498 528 529</F>
+					<F>497 499 530</F>
+					<F>497 530 528</F>
+					<F>499 500 531</F>
+					<F>499 531 530</F>
+					<F>500 501 532</F>
+					<F>500 532 531</F>
+					<F>501 502 533</F>
+					<F>501 533 532</F>
+					<F>502 503 534</F>
+					<F>502 534 533</F>
+					<F>503 504 535</F>
+					<F>503 535 534</F>
+					<F>504 505 536</F>
+					<F>504 536 535</F>
+					<F>505 506 537</F>
+					<F>505 537 536</F>
+					<F>506 507 538</F>
+					<F>506 538 537</F>
+					<F>507 508 539</F>
+					<F>507 539 538</F>
+					<F>508 509 540</F>
+					<F>508 540 539</F>
+					<F>509 510 541</F>
+					<F>509 541 540</F>
+					<F>510 511 542</F>
+					<F>510 542 541</F>
+					<F>511 512 543</F>
+					<F>511 543 542</F>
+					<F>512 513 544</F>
+					<F>512 544 543</F>
+					<F>513 514 545</F>
+					<F>513 545 544</F>
+					<F>514 515 546</F>
+					<F>514 546 545</F>
+					<F>515 516 547</F>
+					<F>515 547 546</F>
+					<F>516 517 548</F>
+					<F>516 548 547</F>
+					<F>517 518 549</F>
+					<F>517 549 548</F>
+					<F>518 519 550</F>
+					<F>518 550 549</F>
+					<F>519 520 551</F>
+					<F>519 551 550</F>
+					<F>520 521 552</F>
+					<F>520 552 551</F>
+					<F>521 522 553</F>
+					<F>521 553 552</F>
+					<F>522 523 554</F>
+					<F>522 554 553</F>
+					<F>523 524 555</F>
+					<F>523 555 554</F>
+					<F>524 525 556</F>
+					<F>524 556 555</F>
+					<F>525 526 557</F>
+					<F>525 557 556</F>
+					<F>526 527 558</F>
+					<F>526 558 557</F>
+					<F>529 528 559</F>
+					<F>529 559 560</F>
+					<F>528 530 561</F>
+					<F>528 561 559</F>
+					<F>530 531 562</F>
+					<F>530 562 561</F>
+					<F>531 532 563</F>
+					<F>531 563 562</F>
+					<F>532 533 564</F>
+					<F>532 564 563</F>
+					<F>533 534 565</F>
+					<F>533 565 564</F>
+					<F>534 535 566</F>
+					<F>534 566 565</F>
+					<F>535 536 567</F>
+					<F>535 567 566</F>
+					<F>536 537 568</F>
+					<F>536 568 567</F>
+					<F>537 538 569</F>
+					<F>537 569 568</F>
+					<F>538 539 570</F>
+					<F>538 570 569</F>
+					<F>539 540 571</F>
+					<F>539 571 570</F>
+					<F>540 541 572</F>
+					<F>540 572 571</F>
+					<F>541 542 573</F>
+					<F>541 573 572</F>
+					<F>542 543 574</F>
+					<F>542 574 573</F>
+					<F>543 544 575</F>
+					<F>543 575 574</F>
+					<F>544 545 576</F>
+					<F>544 576 575</F>
+					<F>545 546 577</F>
+					<F>545 577 576</F>
+					<F>546 547 578</F>
+					<F>546 578 577</F>
+					<F>547 548 579</F>
+					<F>547 579 578</F>
+					<F>548 549 580</F>
+					<F>548 580 579</F>
+					<F>549 550 581</F>
+					<F>549 581 580</F>
+					<F>550 551 582</F>
+					<F>550 582 581</F>
+					<F>551 552 583</F>
+					<F>551 583 582</F>
+					<F>552 553 584</F>
+					<F>552 584 583</F>
+					<F>553 554 585</F>
+					<F>553 585 584</F>
+					<F>554 555 586</F>
+					<F>554 586 585</F>
+					<F>555 556 587</F>
+					<F>555 587 586</F>
+					<F>556 557 588</F>
+					<F>556 588 587</F>
+					<F>557 558 589</F>
+					<F>557 589 588</F>
+				</Faces>
+			</Definition>
+		</Surface>
+	</Surfaces>
+</LandXML>
