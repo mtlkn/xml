@@ -1,3 +1,3 @@
-module git.ap.org/golang/xml
+module github.com/mtlkn/xml
 
-go 1.16
+go 1.18
