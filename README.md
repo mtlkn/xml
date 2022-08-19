@@ -1,2 +1,2 @@
-# XML
+# XML Parser in Go
 
